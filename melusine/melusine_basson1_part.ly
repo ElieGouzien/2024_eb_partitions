@@ -2,7 +2,7 @@
 
 \include "../definitions.ly"
 
-%% additional definitions required by the score:
+% additional definitions required by the score:
 \language "italiano"
 
 bassonA = \relative do' {
@@ -11,39 +11,39 @@ bassonA = \relative do' {
 	\partial 4 la4 \pp |
 	la2.~ la2 la4 |
 	do2.~ do2 do4( |
-	re2) re4 \< mi2 fa4 |
-	mi1.~ |
-	mi1. \> |
-	do2( \! la4) la2( fa4) |
+	re2) re4( \< mi2 fa4 |
+	\after 2. \> mi1.)~ |
+	mi1. |
+	do2 \! la4 la2 fa4 |
 	fa1.( |
 	mi2.) r4 r4 do4 \pp |
 	fa2.~ fa2 fa4 |
 	fa2.~ fa2 fa4 |
-	la2 la4 \< sol2 fa'4 |
+	lab2 lab4 \< sol2 fa'4 |
 	mi1.~ \> |
 	mi1.~ |
-	mi2.( fa2 \pp mi4 |
+	\after 2 \pp mi2.( fa2 mi4 |
 	re1.)( |
 	do2.) r2. |
 	R1.*3 |
 	r2. r4 r4 do,4 |
-	re1. \< |
-	re'1.~ \> |
+	re1.( \< |
+	re'1.)~ \> |
 	re2( \dim do4 sib2 la4|
 	sol2.) r4 r4 mi4 \pp |
 	fa2.~ fa2 fa4 |
 	do'2.~ do2 do4 |
 	re2 re4 \cresc re2 re4 |
-	re2.~ re2 sol,4 \mf |
-	la2( sol4) sib2.~ |
-	sib2( sol4 do2 \dim sib4) |
+	re2.~ re2 sol,4 |
+	la2( \mf sol4) sib2.~ |
+	sib2( sol4 \dim do2 sib4) |
 	sib1.( \pp |
 	la2.) r4 r4 do,4 |
-	la2.~ la2 \cresc la4 |  % TODO: voir si c'est bien placé
+	la2.~ \cresc la2 la4 |
 	fa'2.~ fa2 fa4 |
 	re'2 re4 \< re2 re4 |
 	re2.~ re2 \! sol,4 |
-	fa'2( \> mi4 \! re2 do4) |
+	fa'2( mi4 re2 do4) |
 	do2.~ do2 \dim do4 |
 	do1.~ |
 	do2. r2. |
@@ -96,17 +96,16 @@ bassonA = \relative do' {
 	mib1.~ \! |
 	mib2. r2. |
 	R1.*5 |
-	r4 fab,2->( \f mib4) fab2->( |  %TODO: vérifier dans le manuscrit que c'est bien des accents
+	r4 fab,2->( \f mib4) fab2->( |
 	mib4) lab2->( sol4) lab2->( |
 	sol4) r4 r4 r2. |
 	R1.*6 |
 	r4 lab8 \mf lab8 lab8 lab8 lab4 sib8 sib8 sib8 sib8 |
-	% TODO: vérifier le stacato dans les quelques mesures suivantes
 	sib4 reb8 reb8 reb8 reb8 reb4-. do4-. sib4-. |
 	do4 lab8 \cresc lab8 lab8 lab8 lab4 sib8 sib8 sib8 sib8 |
-	sib4 reb8 reb8 reb8 reb8 reb4 do4 sib4 |
+	sib4 reb8 reb8 reb8 reb8 reb4-. do4-. sib4-. |
 	do4 lab8 lab8 lab8 lab8 lab4 sib8 sib8 sib8 sib8 |
-	sib4 reb8 reb8 reb8 reb8 reb4 do4 sib4 |
+	sib4 reb8 reb8 reb8 reb8 reb4-. do4-. sib4-. |
 	\mark\default \barNumberCheck 144
 	mib1.~ \ff |
 	mib2. r4 fa8 fa8 fa8 fa8 |
@@ -196,7 +195,7 @@ bassonA = \relative do' {
 	sol1. \pp |
 	lab1.~ |
 	lab1. |
-	sib2 sib4 lab2 lab4 |
+	sib2 sib4 sib2 lab4 |
 	sol1. |
 	lab1.~ |
 	lab1. |
@@ -214,7 +213,7 @@ bassonA = \relative do' {
 	re2 \< re4 mi2 fa4 |
 	mi1.~ \! |
 	mi1. \> |
-	do2( \! la4) la2( re4) |
+	do2 \! la4 la2( re4) |
 	fa,1.( |
 	mi2) r4 r4 r4 do4 |
 	fa2.~ fa2 \cresc fa4 |
@@ -234,7 +233,7 @@ bassonA = \relative do' {
 	r2. solb2.( \p |
 	fa2. dob2. |
 	sib2. la2.) |
-	lab2.~ lab2( solb4) |
+	lab2.~ lab2 solb4 |
 	\mark\default \barNumberCheck 305
 	fa1. |
 	lab1. \cresc |

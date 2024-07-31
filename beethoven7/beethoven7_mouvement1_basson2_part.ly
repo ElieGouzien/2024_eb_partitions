@@ -241,10 +241,10 @@ voicebeethovenHxmouvementBxbassonCxmd = \absolute {
  a4 r16 a16 a4 r16 gis16  |
  a4 r16 fis16 fis4 r16 fis16  |
  fis4 r8 r4 r8  |
- r4 r8 r4 e8-!  |
+ r4 r8 r4 e8  |
  fis8( \sf e8) cis8-! a,4 r16 e16  |
  fis4 r8 r4 r8  |
- r4 r8 r8 r8 e8-!  |
+ r4 r8 r8 r8 e8  |
  fis8( \sf e8) cis8-! a,4 r16 a16  |
  gis4 r8 r8 r8. a16  |
  gis4 r8 r8 r8. a16  |
@@ -305,12 +305,13 @@ voicebeethovenHxmouvementBxbassonCxmd = \absolute {
  e'4 r8 r8. e'16 e'8  |
  e'4 \sf cis'8 \grace{cis'32} d'8. b16-! b8-!  |
  % La première note est parfois un la, parfois un do# selon les éditions.
+ % C'est un la dans le manuscrit
  a4 r8 r8. e'16 e'8  |
  e'4 \sf cis'8 \grace{cis'32} d'8. b16-! b8-!  |
- a8 \ff r8 r8 \grace{a,32} b,4 r8  |
- \grace{b,32} cis4 r8 \grace{cis32} d4 r8  |
- \grace{d32} e4 r8 \grace{e32} fis4 r8  |
- \grace{fis32} gis4 r8 \grace{gis32} a4 r8  |
+ a8 \ff r8 r8 \grace{a,32} b,4-! r8  |
+ \grace{b,32} cis4-! r8 \grace{cis32} d4-! r8  |
+ \grace{d32} e4-! r8 \grace{e32} fis4-! r8  |
+ \grace{fis32} gis4-! r8 \grace{gis32} a4-! r8  |
  R2.\granPausa  |
  R2.\granPausa  |
  R2.  |

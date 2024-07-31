@@ -72,9 +72,9 @@ voicebeethovenHxmouvementExbassonCxmd = \absolute {
  fis8 r8 fis8 r8  |
  fis8 r8 bis8 r8  |
  bis8 r8 bis8 r8  |
- bis8 r8 dis'8 \sf r8  |  %TODO: vérifier articulation du ré
+ bis8 r8 dis'8 \sf r8  |
  R2*3  |
- r4 dis'8 \f r8  |  %TODO: vérifier articulation du ré
+ r4 dis'8 \f r8  |
  R2*7  |
  \mark\default \barNumberCheck 74
  r4 cis4\tenutotext \f  |
@@ -269,9 +269,9 @@ voicebeethovenHxmouvementExbassonCxmd = \absolute {
  gis,8 r8 f,8 r8  |
  f,8 r8 f,8 r8  |
  \mark\default \barNumberCheck 273
- e,8 r8 d'8 \sf r8  |  %TODO: vérifier l'articulation
+ e,8 r8 d'8 \sf r8  |
  R2*3  |
- r4 d'8 \f r8  |  %TODO: vérifier l'articulation
+ r4 d'8 \f r8  |
  R2*7  |
  cis'8.\p b16-! cis'4\tenutotext\f  |
  b8.\p a16-! b4\f  |
@@ -315,7 +315,7 @@ voicebeethovenHxmouvementExbassonCxmd = \absolute {
  f8\sf f8 f8 f8  |
  g8\sf g8 g8 g8  |
  f8\sf f8 f8 f8  |
- f8\sf a8 a8 a8  |  %TODO: vérifier la 2e note
+ f8\sf a8 a8 a8  |
  a8\sf a8 a8 a8  |
  gis8\sf gis8 gis8 gis8  |
  a8 cis'8 d'8\sf d'8  |

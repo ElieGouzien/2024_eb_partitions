@@ -46,26 +46,26 @@ voicebeethovenHxmouvementDxbassonBxmd = \absolute {
  bes2.~  |
  bes2.~  |
  bes2.~  |
- bes4( c'4) c'4-!  |
+ bes4( c'4) c'4  |
  c'2.~  |
  c'2.~  |
  c'2.~  |
- c'4( d'4) d'4-!  |
+ c'4( d'4) d'4  |
  d'2.~ \crescpoco  |
  d'2.~  |
  d'2.~  |
- d'4( ees'4) ees'4-!  |
+ d'4( ees'4) ees'4  |
  ees'2.~  |
  ees'2.~  |
  ees'2.~  |
- ees'4( f'4) f'4-!  |
+ ees'4( f'4) f'4  |
  f2.~  |
  f2.~  |
  f2.~  |
- f4( g4) g4-!  |
+ f4( g4) g4  |
  g2.~  |
  g2.~  |
- g2 a4 \f  |
+ g2 a4-! \f  |
  \mark\default
  a4( f8) r8 a4  |
  \grace{a16} c'4( a8) r8 c'4  |
@@ -270,26 +270,26 @@ voicebeethovenHxmouvementDxbassonBxmd = \absolute {
  bes2.~  |
  bes2.~  |
  bes2.~  |
- bes4( c'4) c'4-!  |
+ bes4( c'4) c'4  |
  c'2.~  |
  c'2.~  |
  c'2.~  |
- c'4( d'4) d'4-!  |
+ c'4( d'4) d'4  |
  d'2.~ \crescpoco  |
  d'2.~  |
  d'2.~  |
- d'4( ees'4) ees'4-!  |
+ d'4( ees'4) ees'4  |
  ees'2.~  |
  ees'2.~  |
  ees'2.~  |
- ees'4( f'4) f'4-!  |
+ ees'4( f'4) f'4  |
  f2.~  |
  f2.~  |
  f2.~  |
- f4( g4) g4-!  |
+ f4( g4) g4  |
  g2.~  |
  g2.~  |
- g2 a4 \f  |
+ g2 a4-! \f  | % pas de -! dans le manuscrit, mais c'est un copiste
  \mark\default \barNumberCheck 349
  a4( f8) r8 a4  |
  \grace{a16} c'4( a8) r8 c'4  |
@@ -465,26 +465,26 @@ voicebeethovenHxmouvementDxbassonBxmd = \absolute {
  bes2.~  |
  bes2.~  |
  bes2.~  |
- bes4( c'4) c'4-!  |
+ bes4( c'4) c'4  |
  c'2.~  |
  c'2.~  |
  c'2.~  |
- c'4( d'4) d'4-!  |
+ c'4( d'4) d'4  |
  d'2.~ \crescpoco  |
  d'2.~  |
  d'2.~  |
- d'4( ees'4) ees'4-!  |
+ d'4( ees'4) ees'4  |
  ees'2.~  |
  ees'2.~  |
  ees'2.~  |
- ees'4( f'4) f'4-!  |
+ ees'4( f'4) f'4  |
  f2.~  |
  f2.~  |
  f2.~  |
- f4( g4) g4-!  |
+ f4( g4) g4  |
  g2.~  |
  g2.~  |
- g2 a4 \f  |
+ g2 a4-! \f  |
  \mark\default \barNumberCheck 585
  a4( f8) r8 a4  |
  \grace{a16} c'4( a8) r8 c'4  |

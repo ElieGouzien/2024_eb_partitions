@@ -42,21 +42,21 @@ voicebeethovenHxmouvementDxbassonCxmd = \absolute {
  bes2 a4 \ff  |
  a4 r4 r4  |
  R2.*8  |
- r4 a4 \p a4-!  |  % TODO : pas de point sur mon édition
+ r4 a4 \p a4  |
  a2.~  |
  a2.~  |
  a2.~  |
- a4( bes4) bes4-!  |
+ a4( bes4) bes4  |
  bes2.~ \crescpoco  |
  bes2.~  |
  bes2.~  |
- bes4( c'4) c'4-!  |
+ bes4( c'4) c'4  |
  c'2.~  |
  c'2.~  |
  c'2.~  |
- c'4( d'4) d'4-! \!  |
+ c'4( d'4) d'4 \!  |
  R2.*3  |
- r4 e4 \cresc e4-!  |
+ r4 e4 \cresc e4  |
  e2.~  |
  e2.~  |
  e2 f4-! \f  |
@@ -252,24 +252,24 @@ voicebeethovenHxmouvementDxbassonCxmd = \absolute {
  bes2 a4  |
  a4 r4 r4  |
  R2.*8  |
- r4 a4 \p a4-!  |  % TODO: vérifier partition
+ r4 a4 \p a4  |
  a2.~  |
  a2.~  |
  a2.~  |
- a4( bes4) bes4-!  |
+ a4( bes4) bes4  |
  bes2.~ \crescpoco  |
  bes2.~  |
  bes2.~  |
- bes4( c'4) c'4-!  |
+ bes4( c'4) c'4  |
  c'2.~  |
  c'2.~  |
  c'2.~  |
- c'4( d'4) d'4-! \!  |
+ c'4( d'4) d'4 \!  |
  R2.*3  |
- r4 e4 \cresc e4-!  |
+ r4 e4 \cresc e4  |
  e2.~  |
  e2.~  |
- e2 f4-! \f  |
+ e2 f4-! \f  |  % pas de -! dans le manuscrit, mais c'est un copiste
  \mark\default \barNumberCheck 349
  f,4 r4 f4  |
  \grace{f16} a4( f8) r8 a4  |
@@ -436,24 +436,24 @@ voicebeethovenHxmouvementDxbassonCxmd = \absolute {
  bes2 a4 \ff  |
  a4 r4 r4  |
  R2.*8  |
- r4 a4 \p a4-!  |
+ r4 a4 \p a4  |
  a2.~  |
  a2.~  |
  a2.~  |
- a4( bes4) bes4-!  |
+ a4( bes4) bes4  |
  bes2.~ \crescpoco  |
  bes2.~  |
  bes2.~  |
- bes4( c'4) c'4-!  |
+ bes4( c'4) c'4  |
  c'2.~  |
  c'2.~  |
  c'2.~  |
- c'4( d'4) d'4-! \!  |
+ c'4( d'4) d'4 \!  |
  R2.*3  |
- r4 e4 \cresc e4-!  |
+ r4 e4 \cresc e4  |
  e2.~  |
  e2.~  |
- e2 f4 \f  |
+ e2 f4-! \f  |
  \mark\default \barNumberCheck 585
  f,4 r4 f4  |
  \grace{f16} a4( f8) r8 a4  |

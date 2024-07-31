@@ -2,7 +2,7 @@
 
 \include "../definitions.ly"
 
-%% additional definitions required by the score:
+% additional definitions required by the score:
 \language "italiano"
 
 bassonB = \relative do {
@@ -11,17 +11,17 @@ bassonB = \relative do {
 	\partial 4 r4 |
 	r2. r4 r4 fa4 \pp |
 	la2.~ la2 la4( |
-	si2) si4 \< do2 re4 |
-	sol,1.~ |
-	sol1. \> |
-	la2( \! fa4) fa2( re4) |
+	si2) si4( \< do2 re4 |
+	\after 2. \> sol,1.)~ |
+	sol1. |
+	la2 \! fa4 fa2 re4 |
 	do1.( |
 	do2.) r4 r4 do4 \pp |
 	fa,2.~ fa2 fa4 | fa2.~ fa2 fa4 |
-	fa'2 \< fa4 sol2 lab4 |
+	fa'2 fa4 \< sol2 lab4 |
 	sol1.~ \> |
 	sol1.~ |
-	sol1.~ \pp |
+	\after 2 \pp sol1.~ |
 	sol1. |
 	do,2. r2. |
 	R1.*3 |
@@ -35,14 +35,14 @@ bassonB = \relative do {
 	sib2 sib4 \cresc sib2 sib4 |
 	si2. sol2. |
 	do2. \mf fa2( mi4) |
-	mi2. do2. \dim |
+	\after 2 \dim mi2. do2. |
 	do1.( \pp |
 	fa2.) r4 r4 do4 |
 	la2.~ \cresc la2 la4 |
 	la2.~ la2 la4 |
-	sib2 \< sib4 sib2 sib4 |
+	sib2 sib4 \< sib2 sib4 |
 	si2.~ si2 \! sol'4 |
-	la2( \> sol4 \! fa2 mi4) |
+	la2( sol4 fa2 mi4) |
 	mi2( sol4 do2 \dim sib4) |
 	sib1.( |
 	la2.) r2. \! |
@@ -94,17 +94,16 @@ bassonB = \relative do {
 	reb1.( \! |
 	do2.) r2. |
 	R1.*5 |
-	r4 fab,2->( \f mib4) fab2->( |  % TODO: accent ou decrescendo
+	r4 fab,2->( \f mib4) fab2->( |
 	mib4) fab2->( mib4) fab2->( |
 	mib4) r4 r4 r2. |
 	R1.*6 |
 	r4 do8 \mf do8 do8 do8 do4mib8 mib8 mib8 mib8 |
 	mib4 sib'8 sib8 sib8sib8 sib4-. lab4-. sol4-. |
 	lab4 do,8 \cresc do8 do8 do8do4 mib8 mib8 mib8 mib8 |
-	% TODO: vérifier les stacato
-	mib4 sib'8 sib8 sib8sib8 sib4 lab4 sol4 |
+	mib4 sib'8 sib8 sib8sib8 sib4-. lab4-. sol4-. |
 	lab4 do,8 do8 do8 do8 do4 mib8 mib8 mib8 mib8 |
-	mib4 sib'8 sib8 sib8 sib8 sib4 lab4 sol4 |
+	mib4 sib'8 sib8 sib8 sib8 sib4-. lab4-. sol4-. |
 	\mark\default \barNumberCheck 144
 	do1.~ \ff |
 	do2. r4 reb8 reb8 reb8reb8 |
@@ -135,7 +134,7 @@ bassonB = \relative do {
 	do2 \< do4( si2 la4) |
 	sol1.( \! |
 	sol1.)~ \> |
-	\after 2 \! sol2. mi'2( fa4) |
+	\after 2 \! sol2. mi'2 fa4 |
 	sol1.~ |
 	sol2. r4 r4 sol4 |
 	do,2.~ do2 do4 |
@@ -209,7 +208,7 @@ bassonB = \relative do {
 	si2 \< si4 do2 sib4 |
 	sol1.~ \! |
 	sol1. \> |
-	la2( \! fa4) fa2( sib,4) |
+	la2 \! fa4 fa2( sib,4) |
 	do1.~ |
 	do2( sib4 la2 sol4) |
 	fa1. \cresc |

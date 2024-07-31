@@ -78,11 +78,11 @@ voicebeethovenHxmouvementExbassonBxmd = \absolute {
  cis'8 r8 cis'8 r8  |
  dis'8 r8 dis'8 r8  |
  dis'8 r8 dis'8 r8  |
- dis'8 r8 fis'8 \sf r8  |  %TODO : vérifier l'articulation du fa
+ dis'8 r8 fis'8 \sf r8  |
  r4 gis'8 \p r8  |
  gis8 r8 r4  |
  R2  |
- r4 fis'8 \f r8  |  % TODO: vérifier l'articulation du fa
+ r4 fis'8 \f r8  |
  r4 gis'8 \p r8  |
  gis8 r8 r4  |
  r4 gis'8 r8  |
@@ -303,9 +303,9 @@ voicebeethovenHxmouvementExbassonBxmd = \absolute {
  gis8 r8 f8 r8  |
  f8 r8 f8 r8  |
  \mark\default \barNumberCheck 273
- e8 r8 f'8 \sf r8  | %TODO: vérifier articulation du fa.
+ e8 r8 f'8 \sf r8  |
  R2*3  |
- r4 f'8 \f r8  | %TODO: vérifier articulation du fa.
+ r4 f'8 \f r8  |
  R2*6  |
  \override DynamicLineSpanner.staff-padding = 1.5
  r8 r16 b16( \p e'8)[ r16 d'16](  |
@@ -352,7 +352,7 @@ voicebeethovenHxmouvementExbassonBxmd = \absolute {
  a2:8 \sf  |
  bes2:8 \sf  |
  a2:8 \sf  |
- a8 \sf c'8 c'8 c'8  |  %TODO: vérifier les notes
+ a8 \sf c'8 c'8 c'8  |
  cis'8 \sf cis'8 cis'8 cis'8  |
  b8 \sf b8 b8 b8  |
  cis'8 e'8 f'8 \sf f'8  |
