@@ -3,9 +3,11 @@
 \include "melusine_basson1_part.ly"
 
 \score {
- \new Staff \bassonA
- \layout {\context{
- \Staff
- \consists #Measure_counter_engraver
- }}
+	\new Staff \bassonA
+	\layout {
+		\context{
+			\Staff
+			\consists #Measure_counter_engraver
+		}
+	}
 }

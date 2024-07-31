@@ -3,9 +3,11 @@
 \include "beethoven7_mouvement1_basson2_part.ly"
 
 \score {
-  \new Staff \voicebeethovenHxmouvementBxbassonCxmd
-  \layout {\context {
-    \Staff
-    \consists #Measure_counter_engraver
-  }}
+	\new Staff \voicebeethovenHxmouvementBxbassonCxmd
+	\layout {
+		\context {
+			\Staff
+			\consists #Measure_counter_engraver
+		}
+	}
 }

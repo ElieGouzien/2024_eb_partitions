@@ -6,13 +6,15 @@
 
 
 \score {
-  \new StaffGroup
-  	<<
-  		\new Staff \with { instrumentName = "Basson 1" } \voicebeethovenHxmouvementExbassonBxmd
-  		\new Staff \with { instrumentName = "Basson 2" } \voicebeethovenHxmouvementExbassonCxmd
-  	>>
-  \layout {\context {
-    \Staff
-    \consists #Measure_counter_engraver
-  }}
+	\new StaffGroup
+	<<
+		\new Staff \with { instrumentName = "Basson 1" } \voicebeethovenHxmouvementExbassonBxmd
+		\new Staff \with { instrumentName = "Basson 2" } \voicebeethovenHxmouvementExbassonCxmd
+	>>
+	\layout {
+		\context {
+			\Staff
+			\consists #Measure_counter_engraver
+		}
+	}
 }

@@ -3,6 +3,6 @@
 \include "beethoven7_mouvement3_basson1_part.ly"
 
 \score {
-  \new Staff \voicebeethovenHxmouvementDxbassonBxmd
-  \layout { }
+	\new Staff \voicebeethovenHxmouvementDxbassonBxmd
+	\layout { }
 }

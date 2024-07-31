@@ -281,7 +281,7 @@ bassonA = \relative do' {
 	R1. |
 	R1. \ritard |
 	r2. r4 r4 la4 \pp | \section
-	\key fa \major \tempo "a tempo"  \barNumberCheck 361
+	\key fa \major \tempo "a tempo" \barNumberCheck 361
 	la2.~ la2 la4 |
 	la1. |
 	mi'!2 mi4 mi2 mi4 |
