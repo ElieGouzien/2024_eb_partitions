@@ -12,7 +12,7 @@ bassonA = \relative do' {
 	la2.~ la2 la4 |
 	do2.~ do2 do4( |
 	re2) re4( \< mi2 fa4 |
-	\after 2. \> mi1.)~ |
+	\after 2 \! \after 1 \>  mi1.)~ |
 	mi1. |
 	do2 \! la4 la2 fa4 |
 	fa1.( |
@@ -29,7 +29,7 @@ bassonA = \relative do' {
 	r2. r4 r4 do,4 |
 	re1.( \< |
 	re'1.)~ \> |
-	re2( \dim do4 sib2 la4|
+	re2( \dim do4 sib2 la4 |
 	sol2.) r4 r4 mi4 \pp |
 	fa2.~ fa2 fa4 |
 	do'2.~ do2 do4 |

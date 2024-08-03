@@ -12,12 +12,13 @@ bassonB = \relative do {
 	r2. r4 r4 fa4 \pp |
 	la2.~ la2 la4( |
 	si2) si4( \< do2 re4 |
-	\after 2. \> sol,1.)~ |
+	\after 2 \! \after 1 \> sol,1.)~ |
 	sol1. |
 	la2 \! fa4 fa2 re4 |
 	do1.( |
 	do2.) r4 r4 do4 \pp |
-	fa,2.~ fa2 fa4 | fa2.~ fa2 fa4 |
+	fa,2.~ fa2 fa4 |
+	fa2.~ fa2 fa4 |
 	fa'2 fa4 \< sol2 lab4 |
 	sol1.~ \> |
 	sol1.~ |
@@ -71,7 +72,7 @@ bassonB = \relative do {
 	lab4 lab8 lab8 lab8lab8 lab4 lab8 lab8lab8 lab8 |
 	lab4 fa4 do4 lab4 fa'8fa8 fa8 fa8 |
 	reb'1.~ \sf |
-	reb2. r4 sib8 sib8 sib8\ff sib8 |
+	reb2. r4 sib8 sib8 sib8 sib8 |
 	sib4 sib8 sib8 sib8sib8 sib4 sib8 sib8sib8 sib8 |
 	sib4 r4 r4 r4 do8 do8 do8do8 |
 	solb'1.~ \sf |
@@ -204,7 +205,8 @@ bassonB = \relative do {
 	sol1.~ |
 	sol1. |
 	R1.*4 \! |
-	r2. r4 r4 fa4 \pp | la2.~ la2 la4 |
+	r2. r4 r4 fa4 \pp |
+	la2.~ la2 la4 |
 	si2 \< si4 do2 sib4 |
 	sol1.~ \! |
 	sol1. \> |
@@ -275,7 +277,8 @@ bassonB = \relative do {
 	sol2 sol4 sol2 sol4 |
 	sol1.~ |
 	sol1.~ |
-	sol4 r4 r4 r2. | r2. r4 r4 mi4 \pp |
+	sol4 r4 r4 r2. |
+	r2. r4 r4 mi4 \pp |
 	fa2.~ fa2 fa4 |
 	fa1.~ |
 	fa2. mi2 re4 |
