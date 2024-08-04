@@ -1,6 +1,10 @@
 \version "2.24.3"
 
 \include "../definitions.ly"
+\include "beethoven7_mouvement2_quotes.ly"
+\include "beethoven7_mouvement2_basson1_part.ly"
+
+\addQuote "M2Basson1" {\voicebeethovenHxmouvementCxbassonBxmd}
 
 voicebeethovenHxmouvementCxbassonCxmd = \absolute {
 	\include "../parametres.ly"
@@ -10,10 +14,10 @@ voicebeethovenHxmouvementCxbassonCxmd = \absolute {
 	a4 \pp r4 |
 	R2*23 |
 	\mark\default
-	R2*24_\markup{Vl. II} |
+	<>_\markup{\center-align \tiny "Vl. II"} R2*24 |
 	\mark\default
-	R2*8_\markup{Vl. I} |
-	R2*8 |
+	<>_\markup{\center-align \tiny "Vl. I"} R2*8 |
+	\cueDuringWithClef #"M2Vl1" #UP "treble" {<>^\markup {\center-align \tiny "Vl. I"} R2*8} |
 	r4 c'4 \cresc |
 	r4 b4 |
 	r4 b4 |
@@ -88,13 +92,15 @@ voicebeethovenHxmouvementCxbassonCxmd = \absolute {
 	e4 \p f4 |
 	e4) r4 \section |
 	\key a \minor
-	R2*10 |
+	R2*2
+	\cueDuring #"M2Basson1" #UP {<>^\markup {\right-align \tiny "Fag. I"} R2*5} |
+	R2*3 |
 	r4 e'8-! \ff e'8-! |
 	\mark\default \barNumberCheck 150
 	R2*33 |
 	\mark\default
 	R2*21 |
-	R2*5^\markup{Vl. I} |
+	\cueDuringWithClef #"M2Vl1" #UP "treble" {<>^\markup {\center-align \tiny "Vl. I"} R2*5} |
 	d'4\tenutotext \pp d'8-! e'8-! |
 	f'2~ \cresc |
 	f'2~ |

@@ -1,6 +1,9 @@
 \version "2.24.3"
 
 \include "../definitions.ly"
+\include "beethoven7_mouvement4_basson1_part.ly"
+
+\addQuote "M4Basson1" {\voicebeethovenHxmouvementExbassonBxmd}
 
 voicebeethovenHxmouvementExbassonCxmd = \absolute {
 	\include "../parametres.ly"
@@ -232,8 +235,8 @@ voicebeethovenHxmouvementExbassonCxmd = \absolute {
 	R2*3 |
 	\mark\default \barNumberCheck 198
 	R2*12 |
-	R2*6 |
-	r4 f'4~ \cresc |
+	\cueDuring #"M4Basson1" #UP {<>^\markup {\right-align \tiny "Fag. I"} R2*6 | r4}
+	f'4~ \cresc |
 	f'2~ |
 	f'2~ |
 	f'2( |

@@ -1,6 +1,7 @@
 \version "2.24.3"
 
 \include "../definitions.ly"
+\include "beethoven7_mouvement3_quotes.ly"
 
 voicebeethovenHxmouvementDxbassonCxmdAA = \absolute {
 	f,4 r4 f4 |
@@ -29,13 +30,13 @@ voicebeethovenHxmouvementDxbassonCxmdAB = \absolute {
 	r4 |
 	\tag #'special {\mark\default}
 	R2.*12 |
-	R2.*4 |
+	\cueDuringWithClef #"M3Vl1" #UP "treble" {<>^\markup {\center-align \tiny "Vl. I"} R2.*4} |
 	c'2( \pp b4) |
 	c'2( b4) |
 	c'2 \tag #'normal {b4 \ff} \tag #'special {b4} |
 	b4 r4 r4 |
 	R2.*8 |
-	R2.*4 |
+	\cueDuringWithClef #"M3Vl1" #UP "treble" {<>^\markup {\center-align \tiny "Vl. I"} R2.*4} |
 	bes2( \pp a4) |
 	bes2( a4) |
 	bes2 \tag #'normal {a4 \ff} \tag #'special {a4} |
@@ -186,8 +187,11 @@ voicebeethovenHxmouvementDxbassonCxmdB = \absolute {
 		R2. |
 	}
 	R2.*12 |
-	R2. |
-	r4 r4 \section
+	\cueDuring #"M3Vc" #DOWN {
+		<>^\markup {\center-align \tiny "Vc., Cb."}
+		R2. |
+		r4
+	} r4 \section
 }
 
 voicebeethovenHxmouvementDxbassonCxmd = \absolute {
@@ -203,7 +207,7 @@ voicebeethovenHxmouvementDxbassonCxmd = \absolute {
 				a,2.~ \ff |
 				a,2.~ |
 				a,2.~ |
-				a,2. |
+				a,2 |
 			}{
 				a,2.~ \ff \> |
 				a,2.~ |

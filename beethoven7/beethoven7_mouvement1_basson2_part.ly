@@ -1,6 +1,9 @@
 \version "2.24.3"
 
 \include "../definitions.ly"
+\include "beethoven7_mouvement1_basson1_part.ly"
+
+\addQuote "M1Basson1" {\voicebeethovenHxmouvementBxbassonBxmd}
 
 voicebeethovenHxmouvementBxbassonCxmd = \absolute {
 	\include "../parametres.ly"
@@ -68,7 +71,8 @@ voicebeethovenHxmouvementBxbassonCxmd = \absolute {
 
 	\time 6/8 \tempo "Vivace" 4.=104
 	\repeat volta 2 {
-		R2.*3 |
+		R2.*2 |
+		\cueDuring #"M1Basson1" #UP {<>^\markup {\right-align \tiny "Fag. I"} R2.}
 		cis'8. \paren\p \cresc cis'16 cis'8 cis'8. cis'16 cis'8 |
 		cis'2. \p |
 		b2. |
@@ -133,8 +137,8 @@ voicebeethovenHxmouvementBxbassonCxmd = \absolute {
 		e8 e8 e8 g8 g8 g8 |
 		c4 r8 r4 r8 |
 		R2.*11 |
-		R2.*3 |
-		r4 r8 r8 r8 cis'16( dis'16 |
+		\cueDuring #"M1Basson1" #UP {<>^\markup {\left-align \tiny "Fag. I"} R2.*3 | r4 r8 r8}
+		 r8 cis'16( dis'16 |
 		\mark\default \barNumberCheck 152
 		e'2.)~ \ff |
 		e'4. e'8. e'16 e'8 |
@@ -257,7 +261,8 @@ voicebeethovenHxmouvementBxbassonCxmd = \absolute {
 	b4.-\fermata r8 r8. cis'16 \p |
 	cis'4.-\fermata r4 r8 |
 	R2.*13 |
-	R2.*5 |
+	\cueDuring #"M1Basson1" #UP {<>^\markup {\left-align \tiny "Fag. I"} R2.*2 |}
+	R2.*3 |
 	c'2. \cresc|
 	d'2. |
 	b2. |
@@ -287,7 +292,8 @@ voicebeethovenHxmouvementBxbassonCxmd = \absolute {
 	\mark\default \barNumberCheck 348
 	f4 r8 r4 r8 |
 	R2.*11 |
-	R2.*3 |
+	\cueDuring #"M1Basson1" #UP {<>^\markup {\left-align \tiny "Fag. I"} R2. |}
+	R2.*2 |
 	r4 r8 r8 r8 fis16( \p\cresc gis16 |
 	a2.~ \ff |
 	a4.) a8. a16 a8 |
