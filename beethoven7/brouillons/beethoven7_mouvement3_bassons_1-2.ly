@@ -1,8 +1,8 @@
 \version "2.24.3"
 
-\include "../definitions.ly"
-\include "beethoven7_mouvement3_basson1_part.ly"
-\include "beethoven7_mouvement3_basson2_part.ly"
+\include "../../definitions.ly"
+\include "../parties/beethoven7_mouvement3_basson1_part.ly"
+\include "../parties/beethoven7_mouvement3_basson2_part.ly"
 
 
 \score {

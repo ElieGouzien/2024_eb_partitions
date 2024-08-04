@@ -1,6 +1,6 @@
 \version "2.24.3"
 
-\include "../definitions.ly"
+\include "../../definitions.ly"
 
 MCNone_AA = \relative c''' {R2.*23 | r2}
 

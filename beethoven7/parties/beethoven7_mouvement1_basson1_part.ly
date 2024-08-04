@@ -1,9 +1,9 @@
 \version "2.24.3"
 
-\include "../definitions.ly"
+\include "../../definitions.ly"
 
 voicebeethovenHxmouvementBxbassonBxmd = \absolute {
-	\include "../parametres.ly"
+	\include "../../parametres.ly"
 	\clef bass \time 2/2 \key a \major \tempo "Poco sostenuto" 4=69
 	% Grouper les croches et doubles par temps (pas un vrai C barré).
 	\set Timing.beamExceptions = #'()

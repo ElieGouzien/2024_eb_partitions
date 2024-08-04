@@ -1,6 +1,6 @@
 \version "2.24.3"
 
-\include "beethoven7_mouvement4_basson1_part.ly"
+\include "../parties/beethoven7_mouvement4_basson1_part.ly"
 
 \score {
 	\new Staff \voicebeethovenHxmouvementExbassonBxmd

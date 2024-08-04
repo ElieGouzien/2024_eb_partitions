@@ -1,12 +1,12 @@
 \version "2.24.3"
 
-\include "../definitions.ly"
+\include "../../definitions.ly"
 \include "beethoven7_mouvement4_basson1_part.ly"
 
 \addQuote "M4Basson1" {\voicebeethovenHxmouvementExbassonBxmd}
 
 voicebeethovenHxmouvementExbassonCxmd = \absolute {
-	\include "../parametres.ly"
+	\include "../../parametres.ly"
 	\clef bass \time 2/4 \key a \major \tempo "Allegro con brio" 2=72
 	\set Timing.beamExceptions = \beamExceptions { 8[ 8 8 8] | 8[ 16 16] 8[ 8] }
 	r8 e16 \ff e16 e8 r8 |

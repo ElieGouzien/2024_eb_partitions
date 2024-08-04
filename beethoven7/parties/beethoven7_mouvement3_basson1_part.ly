@@ -1,6 +1,6 @@
 \version "2.24.3"
 
-\include "../definitions.ly"
+\include "../../definitions.ly"
 \include "beethoven7_mouvement3_quotes.ly"
 
 
@@ -211,7 +211,7 @@ voicebeethovenHxmouvementDxbassonBxmdB = \absolute {
 
 
 voicebeethovenHxmouvementDxbassonBxmd = \absolute {
-	\include "../parametres.ly"
+	\include "../../parametres.ly"
 	\clef bass \time 3/4 \key f \major \tempo "Presto" 2.=132
 	\repeat volta 2 {
 		\partial 4 f4 \f |

@@ -1,9 +1,9 @@
 \version "2.24.3"
 
-\include "../definitions.ly"
+\include "../../definitions.ly"
 
 voicebeethovenHxmouvementExbassonBxmd = \absolute {
-	\include "../parametres.ly"
+	\include "../../parametres.ly"
 	\clef bass \time 2/4 \key a \major \tempo "Allegro con brio" 2=72
 	\set Timing.beamExceptions = \beamExceptions { 8[ 8 8 8] | 8[ 16 16] 8[ 8] }
 	r8 e'16 \ff e'16 e'8 r8 |

@@ -1,6 +1,6 @@
 \version "2.24.3"
 
-\include "../definitions.ly"
+\include "../../definitions.ly"
 
 \addQuote "M2Vl1" {
 	\relative c''' {

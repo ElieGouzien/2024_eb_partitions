@@ -1,13 +1,13 @@
 \version "2.24.3"
 
-\include "../definitions.ly"
+\include "../../definitions.ly"
 \include "beethoven7_mouvement2_quotes.ly"
 \include "beethoven7_mouvement2_basson1_part.ly"
 
 \addQuote "M2Basson1" {\voicebeethovenHxmouvementCxbassonBxmd}
 
 voicebeethovenHxmouvementCxbassonCxmd = \absolute {
-	\include "../parametres.ly"
+	\include "../../parametres.ly"
 	\clef bass \time 2/4 \key a \minor \tempo "Allegretto" 4=76
 	a2~ \f\> |
 	a2~ |

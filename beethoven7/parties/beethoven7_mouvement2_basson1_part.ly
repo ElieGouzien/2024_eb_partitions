@@ -1,10 +1,10 @@
 \version "2.24.3"
 
-\include "../definitions.ly"
+\include "../../definitions.ly"
 \include "beethoven7_mouvement2_quotes.ly"
 
 voicebeethovenHxmouvementCxbassonBxmd = \absolute {
-	\include "../parametres.ly"
+	\include "../../parametres.ly"
 	\clef bass \time 2/4 \key a \minor \tempo "Allegretto" 4=76
 	c'2~ \f\> |
 	c'2~ |
