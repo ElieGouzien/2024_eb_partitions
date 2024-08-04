@@ -13,6 +13,9 @@
 % Comptage correct des mesures de 1er et seconde fois.
 \set Score.alternativeNumberingStyle = #'numbers-with-letters
 
+% Tentative d'avoir automatiquement cues (échec)
+%\set Score.quotedEventTypes = #'(StreamEvent quoted-events quoted-context-type quoted-context-id)
+
 % Articulations, liaisons, etc dans les citations.
 \set Score.quotedCueEventTypes = #'(note-event music-event)
 % Ancienne liste explicite : rest-event tie-event tuplet-span-event
@@ -21,3 +24,4 @@
 
 % Plus grande clef de retour à la clé normale après citation d'une autre partie
 \override Staff.CueEndClef.font-size = #-1
+

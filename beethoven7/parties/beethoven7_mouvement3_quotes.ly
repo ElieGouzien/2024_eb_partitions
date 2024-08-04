@@ -39,7 +39,6 @@ MCNone_B = \relative c''' {
 	\repeat volta 2 {R2.*42 |}
 	R2.*13 |
 	r2 \section
-
 }
 
 MCVc_B = \relative c {
@@ -48,7 +47,6 @@ MCVc_B = \relative c {
 	R2.*12 |
 	c2(~ \ppp c8 b8 |
 	c4) r4 \section
-
 }
 
 
