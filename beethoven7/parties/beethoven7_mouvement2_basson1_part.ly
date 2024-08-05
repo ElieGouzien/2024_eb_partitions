@@ -150,7 +150,7 @@ voicebeethovenHxmouvementCxbassonBxmd = \absolute {
 	e16 fis16 gis16 a16 b16 c'16 d'16 e'16 |
 	d'16 b16 c'16 d'16 e'16 d'16 c'16 b16 |
 	a4 r4 |
-	d'4\tenutotext \p d'8-. d'8-. |
+	d'4\tenutotext \p d'8-! d'8-! |
 	c'8 r8 r4 |
 	r4 e'4(~ \dolce |
 	\key a \major
@@ -176,11 +176,11 @@ voicebeethovenHxmouvementCxbassonBxmd = \absolute {
 	a4-.( a4-.) |
 	a4 a8-.( a8-.) |
 	a4-.( a4-.) |
-	d'4\tenutotext \ff c'8-. d'8-. \section |
+	d'4\tenutotext \ff c'8-! d'8-! \section |
 	\mark\default \barNumberCheck 248
 	\key a \minor e'8 r8 r4 |
 	R2*2 |
-	d'4\tenutotext \ff c'8-. d'8-. |
+	d'4\tenutotext \ff c'8-! d'8-! |
 	e'8 r8 r4 |
 	R2*6 |
 	c'4 \pp c'8-.( c'8-.) |
@@ -189,7 +189,7 @@ voicebeethovenHxmouvementCxbassonBxmd = \absolute {
 	c'4 \pp c'8-.( c'8-.) |
 	d'4-.( c'4-.) |
 	R2*2 |
-	d'4\tenutotext \pp d'8-.( d'8-.) |
+	d'4\tenutotext \pp d'8-! d'8-! |
 	c'4 r4 |
 	R2*3 |
 	c'2~ \f\> |

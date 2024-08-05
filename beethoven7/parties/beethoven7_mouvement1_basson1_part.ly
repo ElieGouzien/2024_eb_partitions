@@ -164,12 +164,12 @@ voicebeethovenHxmouvementBxbassonBxmd = \absolute {
 		r4 r8 f'4. \pp ( |
 		dis'4. \cresc ~ dis'4 ) b8-! |
 		b4. \ff ~ b8. a16 gis8 |
-		\grace{g32} a4. \sf ~ a8. a16 a8 |
+		\grace{gis32} a4. \sf ~ a8. a16 a8 |
 		gis4 r8 gis4 r8 |
 		b4 r8 r8. b16 b8 |
-		b4 \sf gis8 \grace{g32} a8. a16-! a8-! |
+		b4 \sf gis8 \grace{gis32} a8. a16-! a8-! |
 		gis4 r8 r8. b16 b8 |
-		b4 \sf gis8 \grace{g32} a8. a16-! a8-! |
+		b4 \sf gis8 \grace{gis32} a8. a16-! a8-! |
 		e8 \ff r8 e'8 r8 r8 e'8 |
 		r8 r8 e'8 r8 r8 e'8 |
 		r8 r8 e'8 r8 r8 e'8 |
