@@ -1,19 +1,12 @@
 \version "2.24.3"
 
-\include "melusine_basson1p5_part.ly"
+\include "parties/beethoven7_mouvement1_basson1p5_part.ly"
+\include "parties/beethoven7_mouvement2_basson1p5_part.ly"
+\include "parties/beethoven7_mouvement3_basson1p5_part.ly"
+\include "parties/beethoven7_mouvement4_basson1p5_part.ly"
 
 instrument = "Basson 1,5"
 
-
-\header {
-	title = "La Belle Mélusine"
-	% subtitle = ""
-	composer = "Felix Mendelssohn"
-	arranger = \markup {\tiny "Arrangé par Christophe Zhang, édité par Élie Gouzien"}
-	% copyright = "Orchestre Échappée Belle"
-	meter = \instrument
-	tagline = ##f
-}
 
 % Paramètres les plus importants:
 %ragged-last-bottom = ##t
@@ -21,10 +14,6 @@ instrument = "Basson 1,5"
 #(set-global-staff-size 22)
 \paper {
 	#(set-default-paper-size "a4")
-	
-	%page-count = 2  % Fixe le nombre de pages
-	min-systems-per-page = 13
-	%systems-per-page = 14
 
 	% #(define page-breaking ly:page-turn-breaking)	% autorise le saut de page sur les silences
 	%% Dimensions horizontales par défaut
@@ -100,15 +89,47 @@ instrument = "Basson 1,5"
 		%\consists Page_turn_engraver  % Voir si ça sert, car en vrai j'ai le temps de tourner.
 		\override MultiMeasureRest.space-increment = #1
 		\override MultiMeasureRest.bound-padding = #-0.5
-
+		
 	}
 	\context {
 		\Score
-		\override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/2)
-		\override SpacingSpanner.common-shortest-duration = #(ly:make-moment 3/4)
+		\override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
+		\override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/4)
 	}
 }
 
-\score {
-	\new Staff \bassonApB
+\bookpart {
+	\header {
+		title = "Symphonie n°7"
+		subtitle = "en la majeur, Op. 92"
+		composer = "Ludwig van Beethoven"
+		arranger = \markup {\tiny "Arrangé par Christophe Zhang, édité par Élie Gouzien"}
+		% copyright = "Orchestre Échappée Belle"
+		meter = \instrument
 	}
+	\paper {page-count=4}
+
+	\score {
+		\new Staff \voicebeethovenHxmouvementBxbassonDxmd
+	}
+}
+
+\bookpart {
+	\score {
+		\new Staff \voicebeethovenHxmouvementCxbassonDxmd
+	}
+}
+
+\bookpart {
+	\score {
+		\new Staff \voicebeethovenHxmouvementDxbassonDxmd
+	}
+}
+
+\bookpart {
+	\header {tagline = ##f}
+	\paper {page-count = 3}
+	\score {
+		\new Staff \voicebeethovenHxmouvementExbassonDxmd
+	}
+}

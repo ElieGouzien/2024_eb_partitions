@@ -19,6 +19,7 @@ voicebeethovenHxmouvementBxbassonDxmd = \absolute {
 	\quoteDuring "M1Basson1" {s1*5}
 	\quoteDuring "M1Basson2" {s1*11}
 	e,16-! \dim \quoteDuring "M1Basson1" {s16*3 s4 s2}
+	\breakDynamicSpan
 	\quoteDuring "M1Basson2" {s1*5}
 	\quoteDuring "M1Basson2" {s2 s4.}
 	\quoteDuring "M1Basson1" {s8 | s1*4 | s2.}

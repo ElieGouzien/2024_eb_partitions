@@ -2,7 +2,7 @@
 
 % Regroupe les mesures vides
 \set Score.skipBars = ##t
-\override MultiMeasureRest.expand-limit = #1
+\override MultiMeasureRest.expand-limit = #9
 
 % Rappel après une altération accidentelle
 \accidentalStyle modern
