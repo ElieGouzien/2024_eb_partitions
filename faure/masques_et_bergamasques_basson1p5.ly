@@ -1,12 +1,22 @@
-\version "2.24.3"
+\version "2.24.4"
 
-\include "parties/beethoven7_mouvement1_basson1p5_part.ly"
-\include "parties/beethoven7_mouvement2_basson1p5_part.ly"
-\include "parties/beethoven7_mouvement3_basson1p5_part.ly"
-\include "parties/beethoven7_mouvement4_basson1p5_part.ly"
+\include "1_ouverture_basson1p5_part.ly"
+\include "2_menuet_basson1p5_part.ly"
+\include "3_gavotte_basson1p5_part.ly"
+\include "4_pastorale_basson1p5_part.ly"
 
 instrument = "Basson 1,5"
 
+
+\header {
+	title = "Masques et bergamasques"
+	% subtitle = ""
+	composer = "Gabriel Fauré"
+	arranger = \markup {\tiny "Arrangé par Christophe Zhang, édité par Élie Gouzien"}
+	% copyright = "Orchestre Échappée Belle"
+	meter = \instrument
+	tagline = ##f
+}
 
 % Paramètres les plus importants:
 %ragged-last-bottom = ##t
@@ -14,6 +24,10 @@ instrument = "Basson 1,5"
 #(set-global-staff-size 22)
 \paper {
 	#(set-default-paper-size "a4")
+
+	%page-count = 6  % Fixe le nombre de pages
+	%min-systems-per-page = 13
+	%systems-per-page = 14
 
 	% #(define page-breaking ly:page-turn-breaking)	% autorise le saut de page sur les silences
 	%% Dimensions horizontales par défaut
@@ -27,23 +41,23 @@ instrument = "Basson 1,5"
 	%page-top-space = 12\mm									% pour les petits systèmes, distance entre le haut de la zone
 	% d'impression et le centre de la première portée
 	%% Marges
-	top-margin = 4\mm 									% distance entre le haut de la page et le premier titre
-	bottom-margin = 4\mm									% distance entre le pied de page et le bas de la page
-	left-margin = 7\mm
-	right-margin = 4\mm
+	%top-margin = 4\mm 									% distance entre le haut de la page et le premier titre
+	%bottom-margin = 4\mm									% distance entre le pied de page et le bas de la page
+	%left-margin = 7\mm
+	%right-margin = 4\mm
 
-	top-markup-spacing             = #'((basic-distance . 0)  (padding . 0) (minimum-distance . 0))
+	%top-markup-spacing             = #'((basic-distance . 0)  (padding . 0) (minimum-distance . 0))
 	%score-markup-spacing          = #'((basic-distance . 0) (padding . 0) (minimum-distance . 0))	% distance entre la fin de la pièce précédente et le premier titre
-	markup-markup-spacing         = #'((basic-distance . 0)  (padding . 0) (minimum-distance . 0))	% distance entre chaque titre
-	markup-system-spacing           = #'((basic-distance . 0)  (padding . 0) (minimum-distance . 0))	% distance entre le dernier titre et le premier système
-	top-system-spacing            = #'((basic-distance . 0)  (padding . 0) (minimum-distance . 0))
+	%markup-markup-spacing         = #'((basic-distance . 0)  (padding . 0) (minimum-distance . 0))	% distance entre chaque titre
+	%markup-system-spacing           = #'((basic-distance . 0)  (padding . 0) (minimum-distance . 0))	% distance entre le dernier titre et le premier système
+	%top-system-spacing            = #'((basic-distance . 0)  (padding . 0) (minimum-distance . 0))
 	%system-system-spacing        = #'((basic-distance . 4)  (padding . 0.5) (minimum-distance . 0))% distance entre systèmes (du centre de chaque portée) 8 1 8
-	last-bottom-spacing         = #'((basic-distance . 0)  (padding . 0) (minimum-distance . 0) (stretchability . 5))
+	%last-bottom-spacing         = #'((basic-distance . 0)  (padding . 0) (minimum-distance . 0) (stretchability . 5))
 	%1score-system-spacing = #'((basic-distance . 18) (padding . 1.5) (minimum-distance . 8))	% distance entre deux \score sur une même page - origine 14 1 8
-	ragged-bottom = ##f							% empêche la justification verticale des pages sauf la dernière si mis à ##t (défaut ##f)
-	ragged-last = ##f							% empêche la justification du dernier système si mis à ##t (défaut ##f)
-	ragged-last-bottom = ##f					% force la justification verticale de la dernière page si mis à ##f (défaut ##t)
-	ragged-right = ##f							% empêche la justification à droite de la ligne si mis à ##t (défaut ##f)
+	%ragged-bottom = ##f							% empêche la justification verticale des pages sauf la dernière si mis à ##t (défaut ##f)
+	%ragged-last = ##f							% empêche la justification du dernier système si mis à ##t (défaut ##f)
+	%ragged-last-bottom = ##f					% force la justification verticale de la dernière page si mis à ##f (défaut ##t)
+	%ragged-right = ##f							% empêche la justification à droite de la ligne si mis à ##t (défaut ##f)
 
 	%% Autres réglages possibles à décommenter et modifier si besoin
 	% auto-first-page-number = ##t % numéro de la première page pair ou impair (défaut ##f)
@@ -89,47 +103,32 @@ instrument = "Basson 1,5"
 		%\consists Page_turn_engraver  % Voir si ça sert, car en vrai j'ai le temps de tourner.
 		\override MultiMeasureRest.space-increment = #1
 		\override MultiMeasureRest.bound-padding = #-0.5
-		
+
 	}
 	\context {
 		\Score
-		\override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
-		\override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/4)
+		rehearsalMarkFormatter = #format-mark-box-numbers
+		%\override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/2)
+		%\override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/1)
 	}
 }
 
-\bookpart {
-	\header {
-		title = "Symphonie n°7"
-		subtitle = "en la majeur, Op. 92"
-		composer = "Ludwig van Beethoven"
-		arranger = \markup {\tiny "Arrangé par Christophe Zhang, édité par Élie Gouzien"}
-		% copyright = "Orchestre Échappée Belle"
-		meter = \instrument
-	}
-	\paper {page-count = 4}
-
-	\score {
-		\new Staff \voicebeethovenHxmouvementBxbassonDxmd
-	}
+\score {
+	\header { piece = \markup{\fill-line {\huge \bold "I. Ouverture"}}}
+	\new Staff \mouvementA_bassonApB
 }
 
-\bookpart {
-	\score {
-		\new Staff \voicebeethovenHxmouvementCxbassonDxmd
-	}
+\score {
+	\header { piece = \markup{\fill-line {\huge \bold "II. Menuet" }}}
+	\new Staff \mouvementB_bassonApB
 }
 
-\bookpart {
-	\score {
-		\new Staff \voicebeethovenHxmouvementDxbassonDxmd
-	}
+\score {
+	\header { piece = \markup{\fill-line {\huge \bold "III. Gavotte" }}}
+	\new Staff \mouvementC_bassonApB
 }
 
-\bookpart {
-	\header {tagline = ##f}
-	\paper {page-count = 3}
-	\score {
-		\new Staff \voicebeethovenHxmouvementExbassonDxmd
-	}
+\score {
+	\header { piece = \markup{\fill-line {\huge \bold "IV. Pastorale" }}}
+	\new Staff \mouvementD_bassonApB
 }

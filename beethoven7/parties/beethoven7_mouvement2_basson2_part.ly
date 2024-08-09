@@ -140,7 +140,7 @@ voicebeethovenHxmouvementCxbassonCxmd = \absolute {
 	a,4-.( a,4-.) |
 	a,4 a,8-.( a,8-.) |
 	a,4-.( a,4-.) |
-	b4\tenutotext a8-! b8-! \section |
+	b4\tenutotext \ff a8-! b8-! \section |
 	\key a \minor c'!8 r8 r4 |
 	R2*2 |
 	b4\tenutotext \ff a8-! b8-! |

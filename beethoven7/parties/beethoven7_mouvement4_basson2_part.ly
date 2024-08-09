@@ -335,16 +335,16 @@ voicebeethovenHxmouvementExbassonCxmd = \absolute {
 	a4( cis4) |
 	\mark\default \barNumberCheck 319
 	c8 \ff g8 g8 g8 |
-	g8 g8 g8 g8 |
-	f8\sf f8 f8 f8 |
-	g8\sf g8 g8 g8 |
-	f8\sf f8 f8 f8 |
-	g8\sf g8 g8 g8 |
-	g8\ff g8 g8 g8 |
-	g8 g8 g8 g8 |
-	f8\sf f8 f8 f8 |
-	g8\sf g8 g8 g8 |
-	f8\sf f8 f8 f8 |
+	g2:8 |
+	f2:8\sf |
+	g2:8\sf |
+	f2:8\sf |
+	g2:8\sf |
+	g2:8\ff |
+	g2:8 |
+	f2:8\sf |
+	g2:8\sf |
+	f2:8\sf |
 	f8\sf a8 a8 a8 |
 	a8\sf a8 a8 a8 |
 	gis8\sf gis8 gis8 gis8 |

@@ -37,11 +37,24 @@ semprepp = \tweak DynamicText.self-alignment-X #LEFT
 
 semprepiuf = \tweak DynamicText.self-alignment-X #LEFT
            #(make-dynamic-script (markup #:normal-text (#:italic "sempre più") #:dynamic "f" ))
+           
+fsemprep = \tweak DynamicText.self-alignment-X #LEFT
+           #(make-dynamic-script (markup #:dynamic "f"
+                                         #:normal-text #:italic "sempre"))
+           
+sempref = \tweak DynamicText.self-alignment-X #LEFT
+           #(make-dynamic-script (markup #:normal-text #:italic "sempre"
+                                         #:dynamic "f"))
 
 pococresc = #(make-music 'CrescendoEvent
                          'span-direction START
                          'span-type 'text
                          'span-text "poco cresc.")
+
+pocopococresc = #(make-music 'CrescendoEvent
+                         'span-direction START
+                         'span-type 'text
+                         'span-text "poco a poco cresc.")
 
 crescpoco = #(make-music 'CrescendoEvent
                          'span-direction START
