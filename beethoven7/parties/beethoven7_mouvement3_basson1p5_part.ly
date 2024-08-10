@@ -46,7 +46,8 @@ voicebeethovenHxmouvementDxbassonDxmd = \absolute {
 	\clef bass \time 3/4 % \key f \major \tempo "Presto" 2.=132
 	\repeat volta 2 {
 		\quoteDuring "M3Basson2" {\partial 4 s4}
-		% TODO: attention, il manque l'appogiature !
+		% TODO: attention, il manquerait l'appogiature si
+		% on avait pris le basson 1.
 		\voicebeethovenHxmouvementDxbassonDxmdAA
 	} \repeat volta 2 {
 		\voicebeethovenHxmouvementDxbassonDxmdAB

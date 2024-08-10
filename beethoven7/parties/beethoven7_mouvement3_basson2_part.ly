@@ -155,7 +155,7 @@ voicebeethovenHxmouvementDxbassonCxmdB = \absolute {
 		fis4 a4 g4) |
 		fis2( e4~ |
 		e4 g4 fis4) |
-		% TODO: clarifier ce que Christophe veut dire ici.
+		% TODO: il faudrait mettre des liasons de phrasé ici.
 		e4( \< d4 fis4 |
 		fis4 \> fis4 d4) |
 		cis2.(~ \! |

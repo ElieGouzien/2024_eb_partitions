@@ -117,7 +117,7 @@ voicebeethovenHxmouvementCxbassonBxmd = \absolute {
 	\tuplet 3/2 {a8-! a8( b8)} \tuplet 3/2 {c'8-! c'8( d'8)} |
 	e'4.( fis'8 |
 	e'4 dis'8) r8 |
-	% TODO: clarifier ce que Christophe veut
+	% TODO: il faudrait mettre une liaison de phrasé
 	\tuplet 3/2 {d'8( b8 cis'8} \tuplet 3/2 {d'8 e'8 d'8} |
 	d'8 cis'8 c'8) r8 |
 	c'2( |

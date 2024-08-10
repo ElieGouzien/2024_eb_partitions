@@ -13,7 +13,6 @@
 		% Marque 2
 		R2*13 |
 		% Marque 3
-		% TODO: voir comment avoir les staccato bien placés.
 		%mi8-. \p si8-. re16-. do16-. si16-. la16-.
 		<mi mi'>8_. \p <si si'>8_. <re re'>16_. <do do'>16_. <si si'>16_. <la la'>16_. |
 		R2*7 |
