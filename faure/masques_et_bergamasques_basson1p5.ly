@@ -21,7 +21,7 @@ instrument = "Basson 1,5"
 % Paramètres les plus importants:
 %ragged-last-bottom = ##t
 %system-system-spacing = #'((basic-distance . 8)  (padding . 1.7) (minimum-distance . 4))% distance entre systèmes (du centre de chaque portée)
-#(set-global-staff-size 22)
+#(set-global-staff-size 23)
 \paper {
 	#(set-default-paper-size "a4")
 
@@ -46,17 +46,17 @@ instrument = "Basson 1,5"
 	%left-margin = 7\mm
 	%right-margin = 4\mm
 
-	%top-markup-spacing             = #'((basic-distance . 0)  (padding . 0) (minimum-distance . 0))
+	%top-markup-spacing             = #'((basic-distance . 2)  (padding . 1) (minimum-distance . 0))
 	%score-markup-spacing          = #'((basic-distance . 0) (padding . 0) (minimum-distance . 0))	% distance entre la fin de la pièce précédente et le premier titre
-	%markup-markup-spacing         = #'((basic-distance . 0)  (padding . 0) (minimum-distance . 0))	% distance entre chaque titre
-	%markup-system-spacing           = #'((basic-distance . 0)  (padding . 0) (minimum-distance . 0))	% distance entre le dernier titre et le premier système
+	markup-markup-spacing         = #'((basic-distance . 15)  (padding . 0.5) (minimum-distance . 0))	% distance entre chaque titre
+	markup-system-spacing           = #'((basic-distance . 13)  (padding . 1) (minimum-distance . 0))	% distance entre le dernier titre et le premier système
 	%top-system-spacing            = #'((basic-distance . 0)  (padding . 0) (minimum-distance . 0))
 	%system-system-spacing        = #'((basic-distance . 4)  (padding . 0.5) (minimum-distance . 0))% distance entre systèmes (du centre de chaque portée) 8 1 8
 	%last-bottom-spacing         = #'((basic-distance . 0)  (padding . 0) (minimum-distance . 0) (stretchability . 5))
 	%1score-system-spacing = #'((basic-distance . 18) (padding . 1.5) (minimum-distance . 8))	% distance entre deux \score sur une même page - origine 14 1 8
 	%ragged-bottom = ##f							% empêche la justification verticale des pages sauf la dernière si mis à ##t (défaut ##f)
 	%ragged-last = ##f							% empêche la justification du dernier système si mis à ##t (défaut ##f)
-	%ragged-last-bottom = ##f					% force la justification verticale de la dernière page si mis à ##f (défaut ##t)
+	ragged-last-bottom = ##f					% force la justification verticale de la dernière page si mis à ##f (défaut ##t)
 	%ragged-right = ##f							% empêche la justification à droite de la ligne si mis à ##t (défaut ##f)
 
 	%% Autres réglages possibles à décommenter et modifier si besoin
@@ -101,8 +101,8 @@ instrument = "Basson 1,5"
 		\Staff
 		\consists Measure_counter_engraver
 		%\consists Page_turn_engraver  % Voir si ça sert, car en vrai j'ai le temps de tourner.
-		\override MultiMeasureRest.space-increment = #1
-		\override MultiMeasureRest.bound-padding = #-0.5
+		%\override MultiMeasureRest.space-increment = #1
+		%\override MultiMeasureRest.bound-padding = #-0.5
 
 	}
 	\context {
@@ -118,15 +118,21 @@ instrument = "Basson 1,5"
 	\new Staff \mouvementA_bassonApB
 }
 
+\pageBreak
+
 \score {
 	\header { piece = \markup{\fill-line {\huge \bold "II. Menuet" }}}
 	\new Staff \mouvementB_bassonApB
 }
 
+\pageBreak
+
 \score {
 	\header { piece = \markup{\fill-line {\huge \bold "III. Gavotte" }}}
 	\new Staff \mouvementC_bassonApB
 }
+
+\pageBreak
 
 \score {
 	\header { piece = \markup{\fill-line {\huge \bold "IV. Pastorale" }}}
