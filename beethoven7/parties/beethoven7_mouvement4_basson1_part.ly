@@ -338,14 +338,14 @@ voicebeethovenHxmouvementExbassonBxmd = \absolute {
 	R2*6 |
 	\override DynamicLineSpanner.staff-padding = 1.5
 	r8 r16 b16( \p e'8)[ r16 d'16]( |
-	cis'8.) \p d'16-! e'4\tenutotext \f |
+	cis'8.) d'16-! e'4\tenutotext \f |
 	d'8. \p cis'16-! d'4 \f |
 	cis'8.\p b16-! cis'4 \f |
 	d'8.\p cis'16-! d'4\f |
 	cis'8\p r8 r4 |
 	R2*4 |
 	b4 \pdolce b4 |
-	cis'8. \p d'16-! e'4\tenutotext \f |
+	cis'8. d'16-! e'4\tenutotext \f |
 	d'8. \p cis'16-! d'4 \f |
 	cis'8. \p b16-! cis'4 \f |
 	d'8. \p cis'16-! d'4 \f |
@@ -496,7 +496,7 @@ voicebeethovenHxmouvementExbassonBxmd = \absolute {
 	b8 cis'8 d'8 e'8 |
 	g'2~ \fff |
 	g'2 |
-	fis'8 e'8 d'8 cis'8 |
+	fis'8-! e'8-! d'8-! cis'8-! |
 	b8 a8 g8 fis8 |
 	e'2 \sf |
 	fis'2 \sf |

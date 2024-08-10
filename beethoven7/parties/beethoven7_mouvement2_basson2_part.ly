@@ -123,8 +123,8 @@ voicebeethovenHxmouvementCxbassonCxmd = \absolute {
 	r4 d4(~ \< |
 	d4 cis4 |
 	b,4 cis4 |
-	d4 \> e4 |
-	fis4 gis4 |
+	d4 e4 |
+	fis4 gis4 \> |
 	b4 a8 cis'8) |
 	cis'2( \< |
 	a4 cis'4) |

@@ -3,7 +3,7 @@
 \include "../parties/beethoven7_mouvement1_basson2_part.ly"
 
 \score {
-	\new Staff \voicebeethovenHxmouvementBxbassonCxmd
+	\new Staff \keepWithTag #'basson2 \voicebeethovenHxmouvementBxbassonCxmd
 	\layout {
 		\context {
 			\Staff

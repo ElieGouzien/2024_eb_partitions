@@ -77,7 +77,7 @@ voicebeethovenHxmouvementCxbassonBxmd = \absolute {
 	b2) |
 	bes2( |
 	b2) |
-	bes4 \dim e'4(~ |
+	bes4( \dim e'4~ |
 	\tuplet 3/2 {e'8 d'8 cis'8} \tuplet 3/2 {e'8 d'8 fis8}) |
 	a4( \p b4 |
 	cis'4 \cresc \tuplet 3/2 {d'8 dis'8 e'8}) |
@@ -114,11 +114,12 @@ voicebeethovenHxmouvementCxbassonBxmd = \absolute {
 	c'2( |
 	b4 c'4) |
 	\grace{b16 c'} d'4(~ \tuplet 3/2 {d'8 c'8 b8}) |
-	\tuplet 3/2 {a8-! a8( b8} \tuplet 3/2 {c'8-!) c'8( d'8} |
-	e'4. fis'8 |
+	\tuplet 3/2 {a8-! a8( b8)} \tuplet 3/2 {c'8-! c'8( d'8)} |
+	e'4.( fis'8 |
 	e'4 dis'8) r8 |
-	\tuplet 3/2 {d'8( b8 cis'8} \tuplet 3/2 {d'8 e'8 d'8}) |
-	d'8( cis'8 c'8) r8 |
+	% TODO: clarifier ce que Christophe veut
+	\tuplet 3/2 {d'8( b8 cis'8} \tuplet 3/2 {d'8 e'8 d'8} |
+	d'8 cis'8 c'8) r8 |
 	c'2( |
 	b4 c'4) |
 	\grace{b16 c'} d'4(~ \tuplet 3/2 {d'8 c'8 b8}) |
@@ -128,12 +129,12 @@ voicebeethovenHxmouvementCxbassonBxmd = \absolute {
 	d'4(~ \tuplet 3/2 {d'8 e'8 f'8}) |
 	f'8( e'8) e'4 |
 	\tuplet 3/2 {a8 \cresc a8 a8} \tuplet 3/2 {a8( b8 cis'8)} |
-	\tuplet 3/2 {cis'8( d'8) d'8-!} d'4 |
+	\tuplet 3/2 {cis'8( d'8) d'8} d'4 |
 	\tuplet 3/2 {d'8 d'8 d'8} \tuplet 3/2 {d'8( e'8 f'8)} |
-	\tuplet 3/2 {f'8( \dim e'8 ) e'8-!} r4 |
-	\tuplet 3/2 {e'8( f'8) f'8-!} r4 |
+	\tuplet 3/2 {f'8( \dim e'8 ) e'8} r4 |
+	\tuplet 3/2 {e'8( f'8) f'8} r4 |
 	\mark\default \barNumberCheck 183
-	\tuplet 3/2 {f'8( e'8) e'8-! \!} r4 |
+	\tuplet 3/2 {f'8( e'8) e'8 \!} r4 |
 	R2*20 |
 	\cueDuringWithClef #"M2Vl1" #UP "treble" {<>^\markup {\center-align \tiny "Vl. I"} R2*5} |
 	d'4\tenutotext \pp d'8-! e'8-! |
@@ -159,8 +160,8 @@ voicebeethovenHxmouvementCxbassonBxmd = \absolute {
 	cis'4( b4~ \< |
 	b4 a4 |
 	gis4 a4 |
-	b4 \> cis'4 |
-	d'4 e'4 |
+	b4 cis'4 |
+	d'4 e'4 \> |
 	d'4 cis'8 e'8) |
 	e'2( \< |
 	cis'4 e'4) |

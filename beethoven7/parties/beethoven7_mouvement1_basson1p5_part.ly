@@ -4,8 +4,8 @@
 \include "beethoven7_mouvement1_basson1_part.ly"
 \include "beethoven7_mouvement1_basson2_part.ly"
 
-\addQuote "M1Basson1" {\voicebeethovenHxmouvementBxbassonBxmd}
-\addQuote "M1Basson2" {\voicebeethovenHxmouvementBxbassonCxmd}
+\addQuote "M1Basson1" {\keepWithTag #'basson1p5 \voicebeethovenHxmouvementBxbassonBxmd}
+\addQuote "M1Basson2" {\keepWithTag #'basson1p5 \voicebeethovenHxmouvementBxbassonCxmd}
 
 voicebeethovenHxmouvementBxbassonDxmd = \absolute {
 	\include "../../parametres.ly"
@@ -50,7 +50,11 @@ voicebeethovenHxmouvementBxbassonDxmd = \absolute {
 	\quoteDuring "M1Basson2" {s2.*2}
 	\quoteDuring "M1Basson1" {s2.*22}
 	\quoteDuring "M1Basson2" {s2.*6}
-	\quoteDuring "M1Basson1" {s2.*15}
+	\quoteDuring "M1Basson1" {s2.*4 |}
+	e'8. gis16 gis8
+	\quoteDuring "M1Basson2" {s4. | s2.*4}
+	gis2.
+	\quoteDuring "M1Basson1" {s2.*5}
 	\quoteDuring "M1Basson2" {s2.*1}
 	\quoteDuring "M1Basson1" {s2.*1}
 	\quoteDuring "M1Basson2" {s2.*1}
@@ -72,8 +76,8 @@ voicebeethovenHxmouvementBxbassonDxmd = \absolute {
 	\quoteDuring "M1Basson2" {s4. | s2.*8}
 	\quoteDuring "M1Basson1" {s2.*26 | s4.}
 	\quoteDuring "M1Basson2" {s4. | s2.*11}  % Tick to get the grace
-	\quoteDuring "M1Basson1" {s2.*3}
-	\quoteDuring "M1Basson2" {s2.*8}
+	\quoteDuring "M1Basson1" {s2.*6}
+	\quoteDuring "M1Basson2" {s2.*5}
 	\quoteDuring "M1Basson1" {s2.}
 	\quoteDuring "M1Basson2" {s2.*24}
 	\quoteDuring "M1Basson1" {s2.*5 | s4.}

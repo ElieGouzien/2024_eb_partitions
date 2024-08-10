@@ -34,6 +34,10 @@ semprep = \tweak DynamicText.self-alignment-X #LEFT
 
 semprepp = \tweak DynamicText.self-alignment-X #LEFT
            #(make-dynamic-script (markup #:normal-text (#:italic "sempre") #:dynamic "pp" ))
+      
+pppossibile = \tweak DynamicText.self-alignment-X #LEFT
+             #(make-dynamic-script (markup #:dynamic "pp"
+                                           #:normal-text #:italic "possibile"))
 
 semprepiuf = \tweak DynamicText.self-alignment-X #LEFT
            #(make-dynamic-script (markup #:normal-text (#:italic "sempre più") #:dynamic "f" ))

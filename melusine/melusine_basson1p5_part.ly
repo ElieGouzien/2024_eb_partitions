@@ -4,8 +4,8 @@
 \include "melusine_basson1_part.ly"
 \include "melusine_basson2_part.ly"
 
-\addQuote "Basson1" {\bassonA}
-\addQuote "Basson2" {\bassonB}
+\addQuote "Basson1" {\keepWithTag #'basson1p5 \bassonA}
+\addQuote "Basson2" {\keepWithTag #'basson1p5 \bassonB}
 
 % additional definitions required by the score:
 \language "italiano"
@@ -29,16 +29,21 @@ bassonApB = \relative do' {
 	sol,2
 	\quoteDuring "Basson1" {s4 | s2.}
 	sib'2.( | mi,2 \quoteDuring "Basson1" {s4 s2. | s1. | s2.}
-	\quoteDuring "Basson2" {s2. | s1.*8}
+	\quoteDuring "Basson2" {s2. | s1.*3 | s2.}
+	si4 \! r4 sol'4 |
+	\quoteDuring "Basson2" {s1.*4}
 	\quoteDuring "Basson1" {s1.*2}
 	\quoteDuring "Basson2" {s1.*4}
 	\quoteDuring "Basson1" {s1.*2}
 	\quoteDuring "Basson2" {s1.*38 | s2.}
-	\quoteDuring "Basson1" {s2. | s1.*77 | s2. s2}
-	\quoteDuring "Basson2" {s4 | s1. | s2. s2}
+	\quoteDuring "Basson1" {s2. | s1.*72 | }
+	sol,2.~\sf \> sol4 \!
+	\quoteDuring "Basson1" {s2 | s1.*4 | s2. s2}
+	\quoteDuring "Basson2" {s4 | s1. | s2.}
+	do4 r4
 	\quoteDuring "Basson1" {s4 | s2. s2}
 	% \quoteDuring "Basson2" {s4 | s1.*2 | s2.} % à l'octave
-	la4) |
+	la'4) |
 	sol1.( \! |
 	sol1.)~ \> |
 	\after 2 \! sol2.
@@ -54,16 +59,18 @@ bassonApB = \relative do' {
 	\quoteDuring "Basson1" {s1.*6 | s2. s2}
 	\quoteDuring "Basson2" {s4 | s1.*2}
 	\quoteDuring "Basson1" {s1.*4 |}
-	mi2  % laisse les liaisons des bassons 1 et 2 se connecter
-	\quoteDuring "Basson2" {s4 s2. |}
-	fa,2.~ \cresc fa2
+	mi4) r4 si4( % laisse les liaisons des bassons 1 et 2 se connecter
+	\quoteDuring "Basson2" {s2. |}
+	fa2.~ \cresc fa2
 	\quoteDuring "Basson1" {s4 | s1.*4 | s2(}
 	\quoteDuring "Basson2" {s4 s2. | s1. | s2. s2}
 	\quoteDuring "Basson1" {s4 | s1.*46}
 	\quoteDuring "Basson2" {s1.*27 | s2}
 	\quoteDuring "Basson1" {s4 s2. | s1.*17}
 	\quoteDuring "Basson2" {s1.*6 | s2. s2}
-	\quoteDuring "Basson1" {s4 | s1.*2}
+	\quoteDuring "Basson1" {s4 | s2.}
+	\quoteDuring "Basson2" {s2. | s2.}
+	\quoteDuring "Basson1" {s2.|}
 	\quoteDuring "Basson2" {s1. | s2.}
 	\quoteDuring "Basson1" {s2. | s1.*2 | s2.}
 	\quoteDuring "Basson2" {s2( s4 | s1.*14}

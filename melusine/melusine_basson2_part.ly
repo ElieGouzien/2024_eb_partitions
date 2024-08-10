@@ -9,7 +9,7 @@ bassonB = \relative do {
 	\include "../parametres.ly"
 	\clef "bass" \time 6/4 \key fa \major \tempo "Allegro con moto" 2.=82
 	\partial 4 r4 |
-	r2. r4 r4 fa4 \pp |
+	r2. r4 r4 \tag #'basson1p5 {fa4} \tag #'basson2 {fa4 \pp} |
 	la2.~ la2 la4( |
 	si2) si4( \< do2 re4 |
 	\after 2 \! \after 1 \> sol,1.)~ |
@@ -27,11 +27,11 @@ bassonB = \relative do {
 	do,2. r2. |
 	R1.*3 |
 	r2. r4 r4 do4 |
-	re1.~ \< |
-	re2. \> sol,2. |
+	re1.~ \cresc |
+	re2. sol,2. |
 	do1.~ \dim |
 	do2( sib4 la2 sol4) \pp |
-	fa2.~ fa2 fa4 |
+	fa2.~ fa2 \parenthesize\breathe fa4 |
 	la'2.~ la2 la,4 |
 	sib2 sib4 \cresc sib2 sib4 |
 	si2. sol2. |
@@ -117,7 +117,7 @@ bassonB = \relative do {
 	lab1. \sf |
 	fa1. \sf |
 	mib2.~ \sf mib4( reb4 do4) |
-	reb2. do2( sib4) |
+	reb2.( do2 sib4) |
 	\mark\default \barNumberCheck 156
 	do4 lab,2:8 sol2.~ \sf |
 	sol4 lab2:8 sol2.~ \sf |
@@ -157,22 +157,24 @@ bassonB = \relative do {
 	re2. r2. |
 	re1.~ |
 	re2. r2. |
+	\override DynamicTextSpanner.style = #'none
 	si1.( \cresc |
 	do2.) r2. |
 	sol1.~ |
 	sol2. r2. |
-	mi'2.( \cresc mib2. |
+	mi'2.( mib2. |
 	re2. sol,2.) |
 	mi'2.( mib2. |
 	re2. sol,2.) |
 	mi'!2. r2. |
 	R1. |
 	mib1.~ \p |
+	\revert DynamicTextSpanner.style
 	mib2.~ mib4 r4 r4 |
 	R1. |
 	r2. r4 r4 re4 |
 	re1.~ \cresc |
-	re2.~ re4 \! r4 r4 |
+	re2.~ re4 r4 \! r4 |
 	R1.*4 | \section
 	\key lab \major \barNumberCheck 212
 	R1.*7 |
@@ -205,7 +207,7 @@ bassonB = \relative do {
 	sol1.~ |
 	sol1. |
 	R1.*4 \! |
-	r2. r4 r4 fa4 \pp |
+	r2. r4 r4 \tag #'basson2 {fa4 \pp} \tag #'basson1p5 {fa4} |
 	la2.~ la2 la4 |
 	si2 \< si4 do2 sib4 |
 	sol1.~ \! |
@@ -230,10 +232,12 @@ bassonB = \relative do {
 	r2. lab,2. \p |
 	\mark\default \barNumberCheck 305
 	reb1. |
+	\override DynamicTextSpanner.style = #'none
 	do1. \cresc |
 	sib2. lab2. |
 	sol2. fa2. |
-	mi2. r2. \! |
+	mi2.\! r2. |
+	\revert DynamicTextSpanner.style
 	R1.*16 |
 	r2. r4 do''2:8 \f |
 	do4( si4) sol2 sib2:8 |
@@ -270,7 +274,7 @@ bassonB = \relative do {
 	fa2 r4 r2. |
 	R1. |
 	R1. \ritard |
-	r2. r4 r4 fa4 \pp | \section
+	r2. r4 r4 fa4 \pppossibile | \section
 	\key fa \major \tempo "a tempo" \barNumberCheck 361
 	fa2.~ fa2 fa4 |
 	fa1. |
@@ -282,24 +286,24 @@ bassonB = \relative do {
 	fa2.~ fa2 fa4 |
 	fa1.~ |
 	fa2. mi2 re4 |
-	do1.~ |
+	do1.(~ |
 	do1. |
-	fa2.( sib,2. |
+	fa2. sib,2. |
 	do1.) |
-	r4 r4 sib4( \pp la2 sib4) |
+	r4 r4 sib4 \pp la2( sib4) |
 	do1. |
 	r4 r4 sib4 la2 \cresc fa4 |
 	fa2. sib2.~ |
 	sib2. sol2. |
 	la'2( \> sol4 fa2 mi4) |
-	mi2( \! sol4 do2) r4 |
+	mi2 \! sol4 do2 r4 |
 	R1. |
-	re,2. sib2. \cresc |
+	re,2. \cresc sib2. |
 	do2.( fa2 mi4) |
 	mi2( sol4 do2) \dim do,4 |
-	do1.( \pp |
+	do1.( |
 	\mark\default \barNumberCheck 387
-	fa2) r4 r2. |
+	fa2) \pp r4 r2. |
 	R1.*2 |
 	sib1.~ \pp |
 	sib1.~ |

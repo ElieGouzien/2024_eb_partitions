@@ -34,13 +34,13 @@ voicebeethovenHxmouvementDxbassonBxmdAB = \absolute {
 	\cueDuringWithClef #"M3Vl1" #UP "treble" {<>^\markup {\center-align \tiny "Vl. I"} R2.*4} |
 	f'2.~ \pp |
 	f'2.~ |
-	f'2 \tag #'normal {f'4 \ff} \tag #'special {f'4} |
+	f'2 \tag #'normal {f'4 \ff} \tag #'special {f'4 \p} |
 	f'4 r4 r4 |
 	R2.*8 |
 	\cueDuringWithClef #"M3Vl1" #UP "treble" {<>^\markup {\center-align \tiny "Vl. I"} R2.*4} |
 	ees'2.~ \pp |
 	ees'2.~ |
-	ees'2 \tag #'normal {ees'4 \ff} \tag #'special {ees'4 } |
+	ees'2 \tag #'normal {ees'4 \ff} \tag #'special {ees'4 \p} |
 	ees'4 r4 r4 |
 	R2.*2 |
 	r4 r4 bes4 \pdolce |

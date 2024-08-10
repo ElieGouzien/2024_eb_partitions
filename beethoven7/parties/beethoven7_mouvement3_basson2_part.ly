@@ -33,13 +33,13 @@ voicebeethovenHxmouvementDxbassonCxmdAB = \absolute {
 	\cueDuringWithClef #"M3Vl1" #UP "treble" {<>^\markup {\center-align \tiny "Vl. I"} R2.*4} |
 	c'2( \pp b4) |
 	c'2( b4) |
-	c'2 \tag #'normal {b4 \ff} \tag #'special {b4} |
+	c'2 \tag #'normal {b4 \ff} \tag #'special {b4 \p} |
 	b4 r4 r4 |
 	R2.*8 |
 	\cueDuringWithClef #"M3Vl1" #UP "treble" {<>^\markup {\center-align \tiny "Vl. I"} R2.*4} |
 	bes2( \pp a4) |
 	bes2( a4) |
-	bes2 \tag #'normal {a4 \ff} \tag #'special {a4} |
+	bes2 \tag #'normal {a4 \ff} \tag #'special {a4 \p} |
 	a4 r4 r4 |
 	R2.*8 |
 	r4 a4 \p a4 |
@@ -117,9 +117,9 @@ voicebeethovenHxmouvementDxbassonCxmdB = \absolute {
 	d4 cis4) d4-! |
 	a,4 r4 r4 |
 	R2. |
-	<>\< \after 2 \> a,2.~ |
+	<>\< \after 8*5 \> a,2.~ |
 	\after 8 \! a,4 r4 r4 |
-	<>\< \after 2 \> a,2.~ |
+	<>\< \after 8*5 \> a,2.~ |
 	\after 8 \! a,4 r4 r4 |
 	a,2( d4) |
 	d4( a,4) a,4-! |
@@ -134,9 +134,9 @@ voicebeethovenHxmouvementDxbassonCxmdB = \absolute {
 	d4 cis4) d4-! |
 	a,4 r4 r4 |
 	R2. |
-	<>\< \after 2 \> a,2.~ |
+	<>\< \after 8*5 \> a,2.~ |
 	\after 8 \! a,4 r4 r4 |
-	<>\< \after 2 \> a,2.~ |
+	<>\< \after 8*5 \> a,2.~ |
 	\after 8 \! a,4 r4 r4 |
 	a,2( d4) |
 	d4( a,4) a,4-! |
@@ -155,8 +155,9 @@ voicebeethovenHxmouvementDxbassonCxmdB = \absolute {
 		fis4 a4 g4) |
 		fis2( e4~ |
 		e4 g4 fis4) |
-		e4( \< d4 fis4) |
-		fis4 \> fis4( d4) |
+		% TODO: clarifier ce que Christophe veut dire ici.
+		e4( \< d4 fis4 |
+		fis4 \> fis4 d4) |
 		cis2.(~ \! |
 		cis4 \< fis4 \> d4) |
 		cis2.(~ \!  |

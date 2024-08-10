@@ -8,7 +8,7 @@
 	\new StaffGroup
 	<<
 		\new Staff \with { instrumentName = "Basson 1" } \bassonA
-		\new Staff \with { instrumentName = "Basson 2" } \bassonB
+		\new Staff \with { instrumentName = "Basson 2" } \keepWithTag #'basson2 \bassonB
 		\new Staff \with { instrumentName = "Basson 1,5" } \bassonApB
 	>>
 	\layout {

@@ -460,7 +460,7 @@ voicebeethovenHxmouvementExbassonCxmd = \absolute {
 	gis8 a8 b8 cis'8 |
 	g'2~ \fff |
 	g'2 |
-	fis'8 e'8 d'8 cis'8 |
+	fis'8-! e'8-! d'8-! cis'8-! |
 	b8 a8 g8 fis8 |
 	cis'2 \sf |
 	d'2 \sf |

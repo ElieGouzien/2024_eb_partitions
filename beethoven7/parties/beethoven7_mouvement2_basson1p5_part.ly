@@ -20,9 +20,7 @@ voicebeethovenHxmouvementCxbassonDxmd = \absolute {
 	\quoteDuring "M2Basson2" {s2*2}
 	\quoteDuring "M2Basson1" {s2*17}
 	\quoteDuring "M2Basson2" {s2*9}
-	\quoteDuring "M2Basson1" {s2*2 | s4}
-	\quoteDuring "M2Basson2" {s4}
-	\quoteDuring "M2Basson1" {s2*5}
+	\quoteDuring "M2Basson1" {s2*8}
 	\quoteDuring "M2Basson2" {s2*4}
 	\quoteDuring "M2Basson1" {s2*65}
 	\cueDuringWithClef #"M2Vl1" #UP "treble" {<>^\markup {\center-align \tiny "Vl. I"} R2*5} |

@@ -148,10 +148,13 @@ voicebeethovenHxmouvementBxbassonBxmd = \absolute {
 		c'4 r8 r4 r8 |
 		c'8 \pp r8 r8 r4 r8 |
 		R2.*6 |
-		r8 r8 a16 \p \cresc ( b16 cis'4-! ) r8 |
+		\override CueVoice.DynamicTextSpanner.style = #'none
+		r8 r8 a16 \cresc ( b16 cis'4-! \! ) r8 |
+		\revert DynamicTextSpanner.style
 		R2.*2 |
 		r8 r8 dis'16 \cresc ( e'16 fis'8-!) r8 e'16 ( fis'16 |
-		\mark\default gis'2. \ff ~ |
+		\mark\default
+		gis'2. \ff ~ |
 		gis'4. ) gis'8. gis'16 gis'8 |
 		fis'2. ~ |
 		fis'4. fis'8. fis'16 fis'8 |
@@ -227,7 +230,7 @@ voicebeethovenHxmouvementBxbassonBxmd = \absolute {
 	R2.*3 |
 	f'4. \p ~ f'8. e'16 d'8 |
 	a4 r8 d'4 r8 |
-	g'4 \p r8 f'4 r8 |
+	g'4 r8 f'4 r8 |
 	a4 r8 d'4 r8 |
 	g'4 r8 f'4 r8 |
 	R2.*2 |
@@ -310,7 +313,7 @@ voicebeethovenHxmouvementBxbassonBxmd = \absolute {
 	b4 \p r8 r4 r8 |
 	R2. |
 	r4 e8 \p e8.-! gis16-! b8-! |
-	c'4-! c'8-! c'8.-! b16-! a8-! |
+	\grace{a32} c'4-! c'8-! c'8.-! b16-! a8-! |
 	gis4-! \cresc e8-! e8.-! gis16-! b8-! |
 	cis'4 \f cis'8 cis'4 cis'8 |
 	b2. |
@@ -336,15 +339,17 @@ voicebeethovenHxmouvementBxbassonBxmd = \absolute {
 	f'4 r8 r4 r8 |
 	f'4 \pp r8 r4 r8 |
 	R2.*6 |
-	r8 r8 d'16( \p\cresc e'16 fis'4-!) r8 |
+	\override DynamicTextSpanner.style = #'none
+	r8 r8 d'16( \cresc e'16 fis'!4-! \!) r8 |
 	R2.*2 |
-	r4 r8 r8 r8 a16( \p\cresc b16 |
+	\revert DynamicTextSpanner.style
+	r4 r8 r8 r8 a16( \cresc b16 |
 	cis'2. \ff ~ |
 	cis'4.) cis'8. cis'16 cis'8 |
 	b2. ~ |
 	b4. b8. b16 b8 |
 	bes4.( \pp f4. |
-	gis4. \cresc e'4.) |
+	gis!4. \cresc e'4.) |
 	cis'2.\ff ~ |
 	cis'4. cis'8. cis'16 cis'8 |
 	b2. ~ |
@@ -379,7 +384,7 @@ voicebeethovenHxmouvementBxbassonBxmd = \absolute {
 	\startMeasureCount
 	\repeat unfold 8 {e'2. ~ |}
 	\stopMeasureCount
-	e'4 \pococresc e'8-! e'4. ~ |
+	e'4 e'8-! e'4. ~ \cresc |
 	e'2. ~ |
 	e'4 e'8-! e'4. ~ |
 	e'2. ~ |
@@ -392,7 +397,7 @@ voicebeethovenHxmouvementBxbassonBxmd = \absolute {
 	e'8 e'8 e'8 e'8 e'8 e'8 |
 	e'8 e'8 e'8 e'8 e'8 e'8 |
 	e'8 e'8 e'8 e'8 e'8 e'8 |
-	e'8 \piucresc e'8 e'8 e'8 e'8 e'8 |
+	e'8 e'8 e'8 e'8 e'8 e'8 |
 	e'8 e'8 e'8 e'8 e'8 e'8 |
 	\stopMeasureCount
 	e'8. \ff e'16 e'8 e'8. e'16 e'8 |

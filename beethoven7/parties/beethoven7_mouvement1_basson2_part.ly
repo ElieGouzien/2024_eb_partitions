@@ -73,7 +73,7 @@ voicebeethovenHxmouvementBxbassonCxmd = \absolute {
 	\repeat volta 2 {
 		R2.*2 |
 		\cueDuring #"M1Basson1" #UP {<>^\markup {\right-align \tiny "Fag. I"} R2.}
-		cis'8. \paren\p \cresc cis'16 cis'8 cis'8. cis'16 cis'8 |
+		\tag #'basson2 {cis'8. \paren\p \cresc} \tag #'basson1p5 {cis'8. \cresc} cis'16 cis'8 cis'8. cis'16 cis'8 |
 		cis'2. \p |
 		b2. |
 		a4 cis'8 cis'8. b16-! a8-! |
@@ -137,8 +137,8 @@ voicebeethovenHxmouvementBxbassonCxmd = \absolute {
 		e8 e8 e8 g8 g8 g8 |
 		c4 r8 r4 r8 |
 		R2.*11 |
-		\cueDuring #"M1Basson1" #UP {<>^\markup {\left-align \tiny "Fag. I"} R2.*3 | r4 r8 r8}
-		 r8 cis'16( dis'16 |
+		\cueDuring #"M1Basson1" #UP {<>^\markup {\left-align \tiny "Fag. I"} R2.*3 | r4 r8 r8 \!}
+		r8 cis'16( dis'16 |
 		\mark\default \barNumberCheck 152
 		e'2.)~ \ff |
 		e'4. e'8. e'16 e'8 |
@@ -192,7 +192,7 @@ voicebeethovenHxmouvementBxbassonCxmd = \absolute {
 	r4 r8 f'8. \sf f'16 f'8 |
 	r4 r8 f'8. \sf f'16 f'8 |
 	R2.*2 |
-	f2. \p |
+	\tag #'basson2 {f2. \p} \tag #'basson1p5 {f2.} |
 	R2. |
 	c4 r8 f4 r8 |
 	R2.*2 |
@@ -291,10 +291,10 @@ voicebeethovenHxmouvementBxbassonCxmd = \absolute {
 	a8 a8 a8 a8 a8 g8 |
 	\mark\default \barNumberCheck 348
 	f4 r8 r4 r8 |
-	R2.*11 |
+	R2.*2 | R2.*9
 	\cueDuring #"M1Basson1" #UP {<>^\markup {\left-align \tiny "Fag. I"} R2. |}
 	R2.*2 |
-	r4 r8 r8 r8 fis16( \p\cresc gis16 |
+	r4 r8 r8 r8 fis16( \cresc gis16 |
 	a2.~ \ff |
 	a4.) a8. a16 a8 |
 	a2.~ |
@@ -342,7 +342,7 @@ voicebeethovenHxmouvementBxbassonCxmd = \absolute {
 	e2.~ |
 	e2.~ |
 	\stopMeasureCount
-	e4 \pococresc e8-! e4.~ |
+	e4 e8-! e4.~ \cresc |
 	e2.~ |
 	e4 e8-! e4.~ |
 	e2.~ |
@@ -355,7 +355,7 @@ voicebeethovenHxmouvementBxbassonCxmd = \absolute {
 	e8 e8 e8 e8 e8 e8 |
 	e8 e8 e8 e8 e8 e8 |
 	e8 e8 e8 e8 e8 e8 |
-	e8 \piucresc e8 e8 e8 e8 e8 |
+	e8 e8 e8 e8 e8 e8 |
 	e8 e8 e8 e8 e8 e8 |
 	\stopMeasureCount
 	cis'8. \ff cis'16 cis'8 cis'8. cis'16 cis'8 |

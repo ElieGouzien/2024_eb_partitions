@@ -23,18 +23,18 @@ bassonA = \relative do' {
 	mi1.~ \> |
 	mi1.~ |
 	\after 2 \pp mi2.( fa2 mi4 |
-	re1.)( |
-	do2.) r2. |
+	re1.) |
+	do2. r2. |
 	R1.*3 |
 	r2. r4 r4 do,4 |
-	re1.( \< |
-	re'1.)~ \> |
+	re1.( \cresc |
+	re'1.)~ |
 	re2( \dim do4 sib2 la4 |
 	sol2.) r4 r4 mi4 \pp |
-	fa2.~ fa2 fa4 |
+	fa2.~ fa2 \parenthesize\breathe fa4 |
 	do'2.~ do2 do4 |
 	re2 re4 \cresc re2 re4 |
-	re2.~ re2 sol,4 |
+	re2.~ re2 \parenthesize\breathe sol,4 |
 	la2( \mf sol4) sib2.~ |
 	sib2( sol4 \dim do2 sib4) |
 	sib1.( \pp |
@@ -118,9 +118,9 @@ bassonA = \relative do' {
 	lab1. \sf |
 	fa1. \sf |
 	mib2.~ \sf mib4( reb4 do4) |
-	fa2. mib2( reb4) |
+	fa2.( mib2 reb4) |
 	\mark\default \barNumberCheck 156
-	do4-. lab,2:8 sol2.~ \sf |
+	do4 lab,2:8 sol2.~ \sf |
 	sol4 lab2:8 sol2.~ \sf |
 	sol4 lab2:8 sol2.~ \sf |
 	sol4 lab2:8 sol4 \sf lab2:8 |
@@ -158,17 +158,19 @@ bassonA = \relative do' {
 	re2. r2. |
 	re1.~ |
 	re2. r2. |
+	\override DynamicTextSpanner.style = #'none
 	sol,1.~ \cresc |
 	sol2. r2. |
 	sol1.~ |
 	sol2. r2. |
 	sol1.( |
-	la2. \cresc sol2.) |
+	la2. sol2.) |
 	sol1.( |
 	la2. sol2.) |
 	sol2. r2. |
 	R1. |
 	sol1.~ \p |
+	\revert DynamicTextSpanner.style
 	sol2.~ sol4 r4 r4 |
 	R1. |
 	r2. r4 r4 sol4 |
@@ -236,15 +238,17 @@ bassonA = \relative do' {
 	lab2.~ lab2 solb4 |
 	\mark\default \barNumberCheck 305
 	fa1. |
+	\override DynamicTextSpanner.style = #'none
 	lab1. \cresc |
 	reb1. |
 	mi2. fa2. |
 	sol1.~ |
 	sol1.~ |
-	sol1.~ \cresc |
 	sol1.~ |
-	sol4 r4 r4 r2. |
-	R1.*12 \! |
+	sol1.~ |
+	sol4 \! r4 r4 r2. |
+	\revert DynamicTextSpanner.style
+	R1.*12 |
 	r2. r4 do,2:8 \f |
 	do4( si4) sol2 sib2:8 |
 	sib4( la4) fa2 do'2:8 |
@@ -280,7 +284,7 @@ bassonA = \relative do' {
 	lab2 r4 r2. |
 	R1. |
 	R1. \ritard |
-	r2. r4 r4 la4 \pp | \section
+	r2. r4 r4 la4 \pppossibile | \section
 	\key fa \major \tempo "a tempo" \barNumberCheck 361
 	la2.~ la2 la4 |
 	la1. |
@@ -302,14 +306,14 @@ bassonA = \relative do' {
 	la2. sib2.~ |
 	sib2. sib2. |
 	la2( \> sol4) sib2.~ |
-	sib2( \! sol4 do2 \dim sib4) |
-	sib1.( |
-	la2.) sib2. \cresc |
+	sib2 \! sol4 do2 \dim sib4 |
+	sib1. |
+	la2. \cresc sib2. |
 	la2( sol4) sib2.~ |
 	sib2( sol4 do2 \dim sib4) |
-	sib1.( \pp |
+	sib1.( |
 	\mark\default \barNumberCheck 387
-	la2) r4 r2. |
+	la2) \pp r4 r2. |
 	R1.*2 |
 	do1.~ \pp |
 	do1.~ |

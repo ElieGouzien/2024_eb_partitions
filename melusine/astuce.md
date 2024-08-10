@@ -21,4 +21,4 @@ for k, x in enumerate(l):
 
 Débuguage des citations
 -----=-----------------
-Demander à Frescobaldi de transformer les s en r ou R.
+Demander à Frescobaldi de transformer les s en r ou R (et sinon utiliser `<>^"k"` reste une bonne idée).

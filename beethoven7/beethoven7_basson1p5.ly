@@ -115,6 +115,7 @@ instrument = "Basson 1,5"
 }
 
 \bookpart {
+	\paper {min-systems-per-page = 10}
 	\score {
 		\new Staff \voicebeethovenHxmouvementCxbassonDxmd
 	}

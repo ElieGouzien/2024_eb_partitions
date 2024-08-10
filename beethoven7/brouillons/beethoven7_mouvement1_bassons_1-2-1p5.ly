@@ -10,7 +10,7 @@
 	\new StaffGroup
 	<<
 		\new Staff \with { instrumentName = "Basson 1" } \voicebeethovenHxmouvementBxbassonBxmd
-		\new Staff \with { instrumentName = "Basson 2" } \voicebeethovenHxmouvementBxbassonCxmd
+		\new Staff \with { instrumentName = "Basson 2" } \keepWithTag #'basson2 \voicebeethovenHxmouvementBxbassonCxmd
 		\new Staff \with { instrumentName = "Basson 1,5" } \voicebeethovenHxmouvementBxbassonDxmd
 	>>
 	\layout {
