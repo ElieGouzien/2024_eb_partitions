@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.24"
 
 % dashDash = \markup{"ten."}
 % tenutotext = #(make-articulation (markup "ten."))

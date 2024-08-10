@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.24"
 
 \include "1_ouverture_basson1p5_part.ly"
 \include "2_menuet_basson1p5_part.ly"

@@ -26,7 +26,9 @@ Demander à Frescobaldi de transformer les s en r ou R (et sinon utiliser `<>^"k
 Mettre à jour tous les fichier
 ------------------------------
 ```
-for x in pathlist.rglob('*.ly'):
+import pathlib
+import os
+for x in pathlib.Path('.').rglob('*.ly'):
     with open(x) as inp, open(x.name+'.new', 'w') as out:
         for line in inp:
             line = line.replace(r'\version "2.24.3"', r'\version "2.24.4"')

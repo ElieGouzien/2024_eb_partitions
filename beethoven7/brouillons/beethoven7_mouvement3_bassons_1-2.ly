@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.24"
 
 \include "../../definitions.ly"
 \include "../parties/beethoven7_mouvement3_basson1_part.ly"

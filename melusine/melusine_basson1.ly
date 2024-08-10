@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.24"
 
 \include "melusine_basson1_part.ly"
 
