@@ -20,5 +20,16 @@ for k, x in enumerate(l):
 ```
 
 Débuguage des citations
------=-----------------
+-----------------------
 Demander à Frescobaldi de transformer les s en r ou R (et sinon utiliser `<>^"k"` reste une bonne idée).
+
+Mettre à jour tous les fichier
+------------------------------
+```
+for x in pathlist.rglob('*.ly'):
+    with open(x) as inp, open(x.name+'.new', 'w') as out:
+        for line in inp:
+            line = line.replace(r'\version "2.24.3"', r'\version "2.24.4"')
+            print(line, file=out, end='')
+    os.replace(x.name+'.new', x)
+```

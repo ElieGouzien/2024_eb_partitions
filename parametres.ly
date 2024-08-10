@@ -1,4 +1,4 @@
-\version "2.24.3"
+\version "2.24.4"
 
 % Regroupe les mesures vides
 \set Score.skipBars = ##t
