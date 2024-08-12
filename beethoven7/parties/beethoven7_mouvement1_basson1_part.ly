@@ -95,7 +95,7 @@ voicebeethovenHxmouvementBxbassonBxmd = \absolute {
 		e4. \sf ~ e8. cis16-! ais,8-! |
 		e8 \sf [ r16 d16 b,8 ] gis8 \sf [ r16 e16 d8 ] |
 		b8 \sf [ r16 gis16 e8 ] d'8 \sf [r16 b16 gis8 ] |
-		d'4.- \fermata r4 r8 | \pageTurn  % TODO: put for basson 1.5 à voir si c'est pertinent
+		d'4.- \fermata r4 r8 |
 		e2. \ff |
 		fis4. ~ fis4 gis8 |
 		a4 a8 a8. b16-! cis'8-! |

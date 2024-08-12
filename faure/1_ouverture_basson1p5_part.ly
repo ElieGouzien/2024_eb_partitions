@@ -142,7 +142,7 @@ mouvementA_bassonApB = \relative do' {
 	R1 |
 	r2 \p \< sib'4-. sol-. |
 	mi-. \f do-. sib'-. sol-. |
-	fa4 r4 re'2->~ | re2 do |  % TODO: vérifier l'articulation du fa
+	fa4-. r4 re'2->~ | re2 do |
 	si1 | do |
 	do~ | do |
 	do4 r4 do-> r4 |

@@ -42,7 +42,7 @@ instrument = "Basson 1,5"
 	% d'impression et le centre de la première portée
 	%% Marges
 	%top-margin = 4\mm 									% distance entre le haut de la page et le premier titre
-	%bottom-margin = 4\mm									% distance entre le pied de page et le bas de la page
+	bottom-margin = 10\mm									% distance entre le pied de page et le bas de la page
 	%left-margin = 7\mm
 	%right-margin = 4\mm
 

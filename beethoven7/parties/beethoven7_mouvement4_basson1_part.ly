@@ -230,22 +230,22 @@ voicebeethovenHxmouvementExbassonBxmd = \absolute {
 	d'8) r8 f4( \sf |
 	a8) r8 d4( \sf |
 	f8) r8 a4( \sf |
-	d'8) r8 f4( |
-	a8) r8 f4( |
-	a8) r8 fis4( |
-	a8) r8 fis4( |
-	bes8) r8 g4( |
-	bes8) r8 g4( |
-	b8) r8 gis4( |
-	b8) r8 gis4( |
-	c'8) r8 a4( |
-	cis'8) r8 ais4( |
-	d'8) r8 b4( |
-	dis'8) r8 bis4( |
-	e'8) r8 cis'4( |
-	e'8) r8 d'4( |
-	e'8) r8 dis'4( |
-	e'8) r8 dis'4( |
+	d'8) r8 f4( \sf |
+	a8) r8 f4( \sf |
+	a8) r8 fis4( \sf |
+	a8) r8 fis4( \sf |
+	bes8) r8 g4( \sf |
+	bes8) r8 g4( \sf |
+	b8) r8 gis4( \sf |
+	b8) r8 gis4( \sf |
+	c'8) r8 a4( \sf |
+	cis'8) r8 ais4( \sf |
+	d'8) r8 b4( \sf |
+	dis'8) r8 bis4( \sf |
+	e'8) r8 cis'4( \sf |
+	e'8) r8 d'4( \sf |
+	e'8) r8 dis'4( \sf |
+	e'8) r8 dis'4( \sf |
 	e'8) r8 dis4( \dim |
 	e8) r8 dis4( |
 	e8) r8 dis4( |

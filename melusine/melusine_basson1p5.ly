@@ -8,10 +8,10 @@ instrument = "Basson 1,5"
 \header {
 	title = "La Belle Mélusine"
 	% subtitle = ""
-	composer = "Felix Mendelssohn"
-	arranger = \markup {\tiny "Arrangé par Christophe Zhang, édité par Élie Gouzien"}
+	composer = \markup {\raise #15 {"Felix Mendelssohn"}}
+	arranger = \markup {\raise #15 {\tiny "Arrangé par Christophe Zhang, édité par Élie Gouzien"}}
 	% copyright = "Orchestre Échappée Belle"
-	meter = \instrument
+	meter = \markup {\raise #15 {\instrument}}
 	tagline = ##f
 }
 
@@ -23,7 +23,7 @@ instrument = "Basson 1,5"
 	#(set-default-paper-size "a4")
 	
 	%page-count = 2  % Fixe le nombre de pages
-	min-systems-per-page = 13
+	min-systems-per-page = 12
 	%systems-per-page = 14
 
 	% #(define page-breaking ly:page-turn-breaking)	% autorise le saut de page sur les silences
@@ -39,16 +39,16 @@ instrument = "Basson 1,5"
 	% d'impression et le centre de la première portée
 	%% Marges
 	top-margin = 4\mm 									% distance entre le haut de la page et le premier titre
-	bottom-margin = 4\mm									% distance entre le pied de page et le bas de la page
-	left-margin = 7\mm
-	right-margin = 4\mm
+	bottom-margin = 7\mm									% distance entre le pied de page et le bas de la page
+	left-margin = 3\mm
+	right-margin = 3\mm
 
 	top-markup-spacing             = #'((basic-distance . 0)  (padding . 0) (minimum-distance . 0))
 	%score-markup-spacing          = #'((basic-distance . 0) (padding . 0) (minimum-distance . 0))	% distance entre la fin de la pièce précédente et le premier titre
 	markup-markup-spacing         = #'((basic-distance . 0)  (padding . 0) (minimum-distance . 0))	% distance entre chaque titre
 	markup-system-spacing           = #'((basic-distance . 0)  (padding . 0) (minimum-distance . 0))	% distance entre le dernier titre et le premier système
 	top-system-spacing            = #'((basic-distance . 0)  (padding . 0) (minimum-distance . 0))
-	%system-system-spacing        = #'((basic-distance . 4)  (padding . 0.5) (minimum-distance . 0))% distance entre systèmes (du centre de chaque portée) 8 1 8
+	system-system-spacing        = #'((basic-distance . 12)  (padding . 1) (minimum-distance . 8) (stretchability . 100))% distance entre systèmes (du centre de chaque portée) 8 1 8
 	last-bottom-spacing         = #'((basic-distance . 0)  (padding . 0) (minimum-distance . 0) (stretchability . 5))
 	%1score-system-spacing = #'((basic-distance . 18) (padding . 1.5) (minimum-distance . 8))	% distance entre deux \score sur une même page - origine 14 1 8
 	ragged-bottom = ##f							% empêche la justification verticale des pages sauf la dernière si mis à ##t (défaut ##f)

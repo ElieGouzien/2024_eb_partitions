@@ -25,3 +25,6 @@
 % Plus grande clef de retour à la clé normale après citation d'une autre partie
 \override Staff.CueEndClef.font-size = #-1
 
+% Numéros de mesure correctement alignées pour ne pas bouffer la marge
+\override Score.BarNumber.self-alignment-X = #LEFT
+

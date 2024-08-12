@@ -215,22 +215,22 @@ voicebeethovenHxmouvementExbassonCxmd = \absolute {
 	d'8) r8 f4( \sf |
 	a8) r8 d4( \sf |
 	f8) r8 a,4( \sf |
-	d8) r8 f,4( |
-	a,8) r8 f,4( |
-	a,8) r8 fis,4( |
-	a,8) r8 fis,4( |
-	bes,8) r8 g,4( |
-	bes,8) r8 g,4( |
-	b,8) r8 gis,4( |
-	b,8) r8 gis,4( |
-	c8) r8 a,4( |
-	cis8) r8 ais,4( |
-	d8) r8 b,4( |
-	dis8) r8 bis,4( |
-	e8) r8 cis4( |
-	e8) r8 d4( |
-	e8) r8 dis4( |
-	e8) r8 dis4( |
+	d8) r8 f,4( \sf |
+	a,8) r8 f,4( \sf |
+	a,8) r8 fis,4( \sf |
+	a,8) r8 fis,4( \sf |
+	bes,8) r8 g,4( \sf |
+	bes,8) r8 g,4( \sf |
+	b,8) r8 gis,4( \sf |
+	b,8) r8 gis,4( \sf |
+	c8) r8 a,4( \sf |
+	cis8) r8 ais,4( \sf |
+	d8) r8 b,4( \sf |
+	dis8) r8 bis,4( \sf |
+	e8) r8 cis4( \sf |
+	e8) r8 d4( \sf |
+	e8) r8 dis4( \sf |
+	e8) r8 dis4( \sf |
 	e8) r8 r4 |
 	R2*3 |
 	\mark\default \barNumberCheck 198
