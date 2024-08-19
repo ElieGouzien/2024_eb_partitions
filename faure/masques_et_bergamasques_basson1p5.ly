@@ -44,7 +44,7 @@ instrument = "Basson 1,5"
 	%top-margin = 4\mm 									% distance entre le haut de la page et le premier titre
 	bottom-margin = 10\mm									% distance entre le pied de page et le bas de la page
 	%left-margin = 7\mm
-	%right-margin = 4\mm
+	%right-margin = 7\mm
 
 	%top-markup-spacing             = #'((basic-distance . 2)  (padding . 1) (minimum-distance . 0))
 	%score-markup-spacing          = #'((basic-distance . 0) (padding . 0) (minimum-distance . 0))	% distance entre la fin de la pièce précédente et le premier titre

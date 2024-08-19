@@ -58,7 +58,7 @@ bassonB = \relative do {
 	\key lab \major
 	R1.*17 |
 	mi'1.~ \f \< |
-	mi2.~ mi4 lab,2:8 \ff |
+	mi2.~ mi4 lab,8 \ff lab8 lab8 lab8 |
 	lab4 lab2:8 lab4 lab2:8 |
 	lab4 lab4 lab4 lab4 fa2:8 |
 	reb'1.~ \sf |

@@ -8,13 +8,13 @@
 		R2*23 |
 		R2*24 |
 		R2*8 |
-		g4 g8-! a8-! |
-		b4(-. b4-.) |
-		fis4 fis8-! gis-! |
-		a4(-. a4-.) |
-		e4 e8-! e8-! |
-		e4(-. e4-.) |
-		e4 fis8-! gis8-! |
+		g4 g8_! a8_! |
+		b4(_. b4_.) |
+		fis4 fis8_! gis_! |
+		a4(_. a4_.) |
+		e4 e8_! e8_! |
+		e4(_. e4_.) |
+		e4 fis8_! gis8_! |
 		a4 r4 |
 		R2*137 |
 		b,16 \semprepp c d c b d c b |

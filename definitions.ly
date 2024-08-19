@@ -12,9 +12,9 @@ paren =
 #(define-event-function (dyn) (ly:event?)
    (make-dynamic-script
     #{ \markup \concat {
-         \normal-text \italic \fontsize #1 (
+         \normal-text \fontsize #1 (
 	     \pad-x #0.2 #(ly:music-property dyn 'text)
-	     \normal-text \italic \fontsize #1 )
+	     \normal-text \fontsize #1 )
        }
     #}))
 

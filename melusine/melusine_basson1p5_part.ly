@@ -59,9 +59,9 @@ bassonApB = \relative do' {
 	\quoteDuring "Basson1" {s1.*6 | s2. s2}
 	\quoteDuring "Basson2" {s4 | s1.*2}
 	\quoteDuring "Basson1" {s1.*4 |}
-	mi4) r4 si4( % laisse les liaisons des bassons 1 et 2 se connecter
-	\quoteDuring "Basson2" {s2. |}
-	fa2.~ \cresc fa2
+	mi4) r4
+	\quoteDuring "Basson2" {s4( s2. |}
+	fa,2.~ \cresc fa2  % TODO: revoir les écartements car moche (trop proche)
 	\quoteDuring "Basson1" {s4 | s1.*4 | s2(}
 	\quoteDuring "Basson2" {s4 s2. | s1. | s2. s2}
 	\quoteDuring "Basson1" {s4 | s1.*46}

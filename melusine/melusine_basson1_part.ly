@@ -59,7 +59,7 @@ bassonA = \relative do' {
 	\key lab \major
 	R1.*17 |
 	sol'1.~ \f \< |
-	sol2.~ sol4 do,2:8 \ff |
+	sol2.~ sol4 do,8 \ff do8 do8 do8 |
 	do4 do2:8 do4 do2:8 |
 	do4 do4 do4 do4 fa,2:8 |
 	reb'1.( \sf |

@@ -43,7 +43,7 @@ voicebeethovenHxmouvementBxbassonCxmd = \absolute {
 	f4 f8 r16 f16 f4 f8 r16 f16 |
 	g4 g8 r16 g16 g4 g8 r8 |
 	R1*4 |
-	r2 r4 g16 \cresc g16 g16 g16 |
+	r2 r4 \tag #'basson2 {g16 \cresc} \tag #'basson1p5 {g16} g16 g16 g16 |
 	gis2 \ff e'2 \sf |
 	b2 \sf e2 \sf |
 	e'2 \sf fis'2 \sf |

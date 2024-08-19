@@ -37,7 +37,7 @@ voicebeethovenHxmouvementDxbassonCxmdAB = \absolute {
 	b4 r4 r4 |
 	R2.*8 |
 	\cueDuringWithClef #"M3Vl1" #UP "treble" {<>^\markup {\center-align \tiny "Vl. I"} R2.*4} |
-	bes2( \pp a4) |
+	bes!2( \pp a4) |
 	bes2( a4) |
 	bes2 \tag #'normal {a4 \ff} \tag #'special {a4 \p} |
 	a4 r4 r4 |

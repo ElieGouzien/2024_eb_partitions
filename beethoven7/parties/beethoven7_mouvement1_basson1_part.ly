@@ -108,7 +108,7 @@ voicebeethovenHxmouvementBxbassonBxmd = \absolute {
 		fis'8 ( e'8) cis'8-! a4 a8 |
 		a8. d'16-! a8-! a8. d'16-! fis'8-! |
 		fis'8 ( e'8 ) cis'8-! a4 r8 |
-		r8 r8 e'8 fis'8 ( e'8 ) cis'8-! |
+		r8 r8 e'8 \p \cresc fis'8 ( e'8 ) cis'8-! |
 		r8 r8 fis'8 g'8 ( fis'8 ) d'8-! |
 		r8 r8 d'8 e'8 ( d'8 ) b8-! |
 		r8 r8 e'8 fis'8 ( e'8 ) cis'8-! |

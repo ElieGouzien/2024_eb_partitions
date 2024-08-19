@@ -15,8 +15,7 @@ voicebeethovenHxmouvementDxbassonDxmdAA = \absolute {
 }
 
 voicebeethovenHxmouvementDxbassonDxmdAB = \absolute {
-	r4 |
-	R2.*12
+	\quoteDuring "M3Basson2" {s4 | s2.*12 |}  % Permet d'avoir la marque
 	\cueDuringWithClef #"M3Vl1" #UP "treble" {<>^\markup {\center-align \tiny "Vl. I"} R2.*4} |
 	\quoteDuring "M3Basson2" {s2.*12 |}
 	\cueDuringWithClef #"M3Vl1" #UP "treble" {<>^\markup {\center-align \tiny "Vl. I"} R2.*4} |

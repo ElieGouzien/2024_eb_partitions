@@ -19,7 +19,7 @@ mouvementA_bassonApB = \relative do' {
 	\numericTimeSignature
 	\clef "bass" \time 2/2 \key fa \major \tempo "All° molto vivo" 2=148
 	R1*24 |
-	\mark\default
+	{\tweak self-alignment-X #RIGHT \mark\default}
 	\cueDuringWithClef #"M1_Flute1" #UP "treble" {<>^\markup {\right-align \tiny "Fl.1"} R1*2} |
 	mi1~ \p | mi1 |
 	la,1~ \pocopococresc | la1 |
@@ -89,8 +89,8 @@ mouvementA_bassonApB = \relative do' {
 	re2.( do4 | sib sol re mi |
 	fa2. mi4 | re) fa la re |
 	fa2.( mi4 | re la fa sol |
-	la2. sol4 | fa) r4 r2 |
-	re1~ \cresc | re2 mi2 |
+	la2. sol4 | fa) la do fa |
+	re,1~ \cresc | re2 mi2 |
 	fa1~ | fa2 fad~ \f |
 	fad2 sol2~ | sol2 sol,2 |
 	\mark\default
